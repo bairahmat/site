@@ -1,31 +1,31 @@
 ---
-title: Instalasi TealinuxOS
+title: Instalasi BantOS
 type: panduan
 order: 102
 ---
 
 
-## Panduan Instalasi TealinuxOS
-Ada 2 cara yang bisa Anda lakukan untuk instalisasi TealinuxOS pada perangkat Anda,yaitu:
-Untuk menginstall TealinuxOS pada perangkat anda dapat mengikuti 2 cara yaitu :
+## Panduan Instalasi BantOS
+Ada 2 cara yang bisa kita lakukan untuk instalisasi BantOS pada perangkat PC dan Laptop,yaitu:
+Untuk menginstall BantOS pada perangkat kita dapat mengikuti 2 cara yaitu :
 - Melalui _bootable_ flashdisk
 - Melalui _bootable_ CD
-Jika Anda menggunakan CD, Anda dapat melewatkan bagian **Unduh ISO TealinuxOS** dan **Membuat bootable ISO TealinuxOS ke Flashdisk**.
+Jika kita menggunakan CD, kita dapat melewatkan bagian **Unduh ISO BantOS** dan **Membuat bootable ISO BantOS ke Flashdisk**.
 
-### Unduh TealinuxOS
-ISO tealinux dapat diunduh [di sini](http://pinguin.dinus.ac.id/iso/tealinuxos/).
+### Unduh BantOS
+ISO BantOS dapat diunduh [Belum dapat di Unduh](http://linux.dev.bantenprov/iso/BantOS/).
 
-### Membuat Bootable ISO TealinuxOS ke Flashdisk
+### Membuat Bootable ISO BantOS ke Flashdisk
 Untuk membuat bootable ke flashdisk anda dapat menggunakan software _Third Party_ seperti [Universal USB Installer](https://universal-usb-installer.en.uptodown.com), [Unetbootin](http://unetbootin.github.io) atau [Rufus](https://rufus.akeo.ie/). Berikut adalah langkah-langkah untuk membuat bootable ISO TealinuxOS ke flashdisk menggunakan Universal USB Installer.
 ![Bootable_1](https://cloud.githubusercontent.com/assets/22718275/23578142/c4eae682-0102-11e7-9d76-69cd286a4406.png)
 
 ![Bootable_2](https://cloud.githubusercontent.com/assets/22718275/23578146/d6ebc932-0102-11e7-94c9-993dee8bcbe2.png)
 Mengenai cara penggunaan, instalasi dan keterangan lainya dapat Anda lihat di Website resmi dari masing-masing software tersebut.
 
-### Membuat partisi hardisk untuk TealinuxOS
+### Membuat partisi hardisk untuk BantOS
 Untuk membuat partisi hardisk Anda dapat menggunakan `Create and format hard disk partition` milik Windows, `GParted` milik Linux, atau _tools_ lain yang biasa Anda gunakan untuk membuat partisi.
-Ada 2 Macam partisi yang dibutuhkan oleh TealinuxOS yaitu :
-- Partisi dengan format `ext4`. Partisi ini berfungsi sebagai tempat setiap file system TealinuxOS.
+Ada 2 Macam partisi yang dibutuhkan oleh BantOS yaitu :
+- Partisi dengan format `ext4`. Partisi ini berfungsi sebagai tempat setiap file system bantOS.
   Sebagai contoh kami membuat partisi sebesar 50GB atau 50000Mb. Klik kanan pada disk yang ingin di _shrink_ (dipecah). Kenapa harus 50GB ?, karena ukuran 50GB itu ukuran yang ideal untuk sistem operasi linux. ukuran minimalnya untuk linux ialah 20GB.
   ![Partition_1](https://cloud.githubusercontent.com/assets/22718275/23578147/e2c49112-0102-11e7-868e-611db63be0a2.png)
 
@@ -35,15 +35,15 @@ Ada 2 Macam partisi yang dibutuhkan oleh TealinuxOS yaitu :
   Untuk ukuran partisi `linux-swap` kami merekomendasikan 2GB.
 
 
-### Proses Instalasi TealinuxOS
-1. Setelah Anda memiliki _bootable_ TealinuxOS, pastikan Anda menghubungkan _bootable_ tersebut ke perangkat anda.
-2. Restart perangkat Anda untuk memulai proses instalasi TealinuxOS.
+### Proses Instalasi BantOS
+1. Setelah Anda memiliki _bootable_ BantOS, pastikan kita  menghubungkan _bootable_ tersebut ke perangkat kita.
+2. Restart perangkat Anda untuk memulai proses instalasi BantOS.
 3. Arahkan _booting option_ ke perangkat _bootable_. Anda dapat masuk ke BIOS kemudian ubah mode BIOS ke `Legacy` (jika sebelumnya menggunakan mode `UEFI/EFI`).
 4. Selanjutnya ubah boot priority USB HDD(): ke urutan pertama jika anda menggunakan flashdisk atau ubah boot priority CD(): ke urutan pertama jika Anda menggunakan CD.
 5. Simpan pengaturan pada BIOS Anda kemudian restart.
 6. Tunggu beberapa saat sampai muncul menu seperti berikut :
    ![menu-install](https://cloud.githubusercontent.com/assets/22718275/23685947/5be6f430-03d9-11e7-89c0-d55cfb593f9e.png)
-7. Pilih `Try TealinuxOS` untuk mencoba atau `Install TealinuxOS` untuk langsung menginstall. Apabila Anda memilih Install TealinuxOS Anda dapat melewati langkah ke 6 dan 7.
+7. Pilih `Try BantOS` untuk mencoba atau `Install BantOS` untuk langsung menginstall. Apabila Anda memilih Install TealinuxOS Anda dapat melewati langkah ke 6 dan 7.
 8. Tunggu beberapa saat sampai muncul desktop TealinuxOS seperti berikut :
    ![try-install](https://cloud.githubusercontent.com/assets/22718275/23685964/736151be-03d9-11e7-9b11-23af4063ab3b.png)
    Anda dapat mencoba terlebih dahulu fitur-fitur yang terdapat pada TealinuxOS sebelum menginstallnya. Tetapi jika Anda langsung ingin memasang TealinuxOS, klik icon _Install TealinuxOS_ pada desktop.

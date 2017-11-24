@@ -2,19 +2,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Print dan Scan - TeaLinuxOS</title>
+        <title>Printing and Scanning - Linux BantOS | BantOS</title>
         <meta charset="utf-8">
-        <meta name="description" content="Operating System for Your Development Environment">
+        <meta name="description" content="Operating System for Your E-Government">
         <meta name="viewport" con tent="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <meta property="og:type" content="article">
-        <meta property="og:title" content="Print dan Scan - TeaLinuxOS">
-        <meta property="og:description" content="Operating System for Your Development Environment">
-        <meta property="og:image" content="https://tealinuxos.org/images/tealinuxos-logo.png">
+        <meta property="og:title" content="Printing and Scanning - Linux BantOS">
+        <meta property="og:description" content="Operating System for Your E-Government">
+        <meta property="og:image" content="https://linux.dev.bantenprov.go.id/images/tealinuxos-logo.png">
 
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="Print dan Scan - TeaLinuxOS">
-        <meta name="twitter:description" content="Operating System for Your Development Environment">
-        <meta name="twitter:image" content="https://tealinuxos.org/images/tealinuxos-logo.png">
+        <meta name="twitter:title" content="Printing and Scanning - Linux BantOS">
+        <meta name="twitter:description" content="Operating System for Your E-Government">
+        <meta name="twitter:image" content="https://linux.dev.bantenprov.go.id/images/tealinuxos-logo.png">
 
         <link rel="icon" href="/images/tealinuxos-logos/favicon.ico" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
-                background: url('/images/bg-hero2.png') no-repeat bottom;
+                background: url('/images/bg-kp3b.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -52,7 +72,7 @@
         <div id="header">
   <a id="logo" href="/en/">
     <img src="/images/hexa-logo.png">
-    <span>TealinuxOS</span>
+    <span>Linux BantOS</span>
   </a>
   <ul id="nav">
     <li>
@@ -66,7 +86,7 @@
 <!--li><a href="/v2/guide/" class="nav-link">Dukungan</a></li-->
 
 <li><a href="/en/kontribusi/">Contibution</a></li>
-<li><a href="https://medium.com/tealinuxos" target="_blank">Blog</a></li>
+<li><a href="https://dev.bantenprov.go.id/bantos" target="_blank">Blog</a></li>
 <!-- <li class="nav-dropdown-container ecosystem">
   <a class="nav-link">Ecosystem</a><span class="arrow"></span>
   <ul class="nav-dropdown">
@@ -128,7 +148,7 @@
 <!--li><a href="/v2/guide/" class="nav-link">Dukungan</a></li-->
 
 <li><a href="/en/kontribusi/">Contibution</a></li>
-<li><a href="https://medium.com/tealinuxos" target="_blank">Blog</a></li>
+<li><a href="https://dev.bantenprov.go.id/bantos" target="_blank">Blog</a></li>
 <!-- <li class="nav-dropdown-container ecosystem">
   <a class="nav-link">Ecosystem</a><span class="arrow"></span>
   <ul class="nav-dropdown">
@@ -248,42 +268,42 @@
                 
                 
                 <li>
-                    <a href="/en/panduan/print-dan-scan.html" class="sidebar-link current">Print dan Scan</a>
+                    <a href="/en/panduan/print-dan-scan.html" class="sidebar-link current">Printing and Scanning</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/mengelola-aplikasi.html" class="sidebar-link">Mengelola Aplikasi Terinstall</a>
+                    <a href="/en/panduan/mengelola-aplikasi.html" class="sidebar-link">Managing Installed Apps</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/menjaga-keamanan.html" class="sidebar-link">Menjaga Keamanan Komputer</a>
+                    <a href="/en/panduan/menjaga-keamanan.html" class="sidebar-link">Maintaining Computer Securoty</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/perangkat-keras.html" class="sidebar-link">Perangkat Keras</a>
+                    <a href="/en/panduan/perangkat-keras.html" class="sidebar-link">Hardwares</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/administrasi.html" class="sidebar-link">Tugas-tugas administratif</a>
+                    <a href="/en/panduan/administrasi.html" class="sidebar-link">Administrative Tasks</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/en/panduan/perintah-baris.html" class="sidebar-link">Perintah Baris</a>
+                    <a href="/en/panduan/perintah-baris.html" class="sidebar-link">Command Line</a>
                 </li>
             
             
@@ -305,43 +325,44 @@
 
     
     
-      <h1>Print dan Scan</h1>
+      <h1>Printing and Scanning</h1>
     
-    <h2 id="Penggunaan-Printer"><a href="#Penggunaan-Printer" class="headerlink" title="Penggunaan Printer"></a>Penggunaan Printer</h2><p> Kebanyakan printer secara otomatis didukung oleh TeaLinuxOS Pappermint. Aplikasi Konfigurasi Printer memungkinkan Anda untuk menambahkan printer, serta mengubah pengaturan mereka. Anda juga dapat menggunakan aplikasi ini untuk berbagi printer dengan komputer lain di jaringan, menonaktifkan printer atau restart.</p>
-<h3 id="Print-Lokal"><a href="#Print-Lokal" class="headerlink" title="Print Lokal"></a>Print Lokal</h3><ul>
-<li>Dapatkan nama model printer Anda</li>
-<li>Pastikan printer sudah hidup</li>
-<li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br><code>→ Setting → Setting Manager → Printers</code></li>
-<li>Klik <code>→ Server → New → Printer</code></li>
-<li>Printer Anda harus secara otomatis terdeteksi dan ditampilkan dalam jendela Devices</li>
-<li>Pilih printer Anda dan klik Forward</li>
-<li>Komputer Anda akan mencari dan menginstal driver untuk printer Anda</li>
-<li>Anda dapat memasukkan deskripsi dan lokasi untuk printer Anda</li>
-<li>Tekan <code>Apply</code></li>
-<li>Printer Anda harus dikonfigurasi dengan benar pada saat ini dan Anda akan diminta jika Anda ingin mencetak halaman uji</li>
-<li>Jika Anda menekan tombol Print Test Page, halaman uji akan mencetak dan Anda dapat memverifikasi apakah itu dicetak dengan benar, atau Anda dapat menekan Batal.</li>
-<li>Jika Anda masih mengalami masalah, cobalah menggunakan antarmuka berbasis browser CUPS. Hal ini dapat diakses di http: // localhost: 631 /.</li>
+    <h2 id="Using-the-Printer"><a href="#Using-the-Printer" class="headerlink" title="Using the Printer"></a>Using the Printer</h2><p> Most printers are automatically supported by TeaLinuxOS Pappermint. The Printer Configuration application allows you to add printers, as well as change their settings. You can also use this app to share the printer with other computers on the network, disable the printer or restart.</p>
+<h3 id="Local-Printing"><a href="#Local-Printing" class="headerlink" title="Local Printing"></a>Local Printing</h3><ul>
+<li>Get the name of your printer model</li>
+<li>Make sure the printer is on</li>
+<li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br><code>→ Settings → Settings Manager → Printers</code></li>
+<li>Click <code>→ Server → New → Printer</code></li>
+<li>Your printer must be automatically detected and displayed in the Devices window</li>
+<li>Select your printer and click Forward</li>
+<li>Your computer will locate and install drivers for your printer</li>
+<li>You can enter description and location for your printer</li>
+<li>Press <code>Apply</code></li>
+<li>Your printer must be configured correctly at this time and you will be prompted if you want to print a test page</li>
+<li>If you press the Print Test Page button, the test page will print and you can verify whether it is printing correctly, or you can press Cancel.</li>
+<li>If you’re still having trouble, try using CUPS browser-based interface. It can be accessed at http: // localhost: 631 /.</li>
 </ul>
-<h3 id="Print-menggunakan-jaringan"><a href="#Print-menggunakan-jaringan" class="headerlink" title="Print menggunakan jaringan"></a>Print menggunakan jaringan</h3><ul>
-<li>Dapatkan nama model printer Anda</li>
-<li>Pastikan printer sudah hidup</li>
-<li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br><code>→ Setting → Setting Manager → Printers</code></li>
-<li>Klik <code>→ Server → New → Printer</code></li>
-<li>Klik pada Network Printer di jendela Devices</li>
-<li>Jika printer Anda terhubung langsung ke mesin Windows di jaringan Anda, pilih Windows Printer via SAMBA. Jika tidak, pilih protokol printer Anda menggunakan untuk berkomunikasi.</li>
-<li>Masukkan rincian printer jaringan dan tekan Teruskan</li>
-<li>Pilih produsen printer dan kemudian tekan Teruskan</li>
-<li>Pilih model printer dan driver kemudian tekan Teruskan</li>
-<li>nda dapat memasukkan deskripsi dan lokasi untuk printer Anda di bidang yang sesuai</li>
-<li>Tekan <code>Apply</code></li>
-<li>Printer Anda dikonfigurasi dengan benar pada saat ini dan Anda akan diminta untuk mencetak halaman uji, tekan Batal atau Print Test Page tergantung pada preferensi Anda</li>
+<h3 id="Printing-using-the-network"><a href="#Printing-using-the-network" class="headerlink" title="Printing using the network"></a>Printing using the network</h3><ul>
+<li>Get the name of your printer model</li>
+<li>Make sure the printer is on</li>
+<li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br><code>→ Settings → Settings Manager → Printers</code></li>
+<li>Click <code>→ Server → New → Printer</code></li>
+<li>Click on Network Printer in the Devices window</li>
+<li>If your printer is directly connected to a Windows machine on your network, choose Windows Printer via SAMBA. If not, select the protocol your printer uses to communicate.</li>
+<li>Enter network printer details and press Forward</li>
+<li>Select the printer manufacturer and then press Forward</li>
+<li>Select the printer model and the driver then press Forward</li>
+<li>You can enter a description and location for your printer in the appropriate fields</li>
+<li>Press <code>Apply</code></li>
+<li>Your printer is configured correctly at this time and you will be prompted to print a test page, press Cancel or Print Test Page depending on your preference</li>
 </ul>
-<h2 id="Penggunaan-Scanner"><a href="#Penggunaan-Scanner" class="headerlink" title="Penggunaan Scanner"></a>Penggunaan Scanner</h2><p> Banyak scanner telah didukung oleh TeaLinuxOS Pappermint, sehingga mudah dalam penginstallan dan pengoperasiannya.<br>Scan dokumen</p>
+<h2 id="Using-the-Scanner"><a href="#Using-the-Scanner" class="headerlink" title="Using the Scanner"></a>Using the Scanner</h2><p> Many scanners have been supported by TeaLinuxOS Pappermint, making it easy to install and operate.</p>
+<p>Scanning the document</p>
 <ul>
-<li>Tempatkan dokumen yang ingin di scan ke scanner</li>
+<li>Place the document you want to scan to scanner</li>
 <li><img src="https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png" alt="menu"><br><code>→ Graphics → Simple Scan</code></li>
-<li>Klik <code>Document → Scan</code></li>
-<li>Pilih media yang ingin anda scan: Single Page, All Pages From Feeder, Text or Photo. Bergantian, tekan tombol Scan pada pemindai cara ini seharusnya bisa berhasil.</li>
+<li>Click <code>Document → Scan</code></li>
+<li>Select the media you want to scan: Single Page, All Pages From Feeder, Text or Photo. Alternately, press the Scan button on the scanner this way should work.</li>
 </ul>
 
 
@@ -351,14 +372,14 @@
           <span>← <a href="/en/panduan/koneksi.html">Network and Internet Connection</a></span>
         
         
-          <span style="float:right"><a href="/en/panduan/mengelola-aplikasi.html">Mengelola Aplikasi Terinstall</a> →</span>
+          <span style="float:right"><a href="/en/panduan/mengelola-aplikasi.html">Managing Installed Apps</a> →</span>
         
       </div>
     
 
     <div class="footer">
         
-            Found a mistake or want to contribute to the documentation ?  <a href="https://github.com/doscom/tealinuxos.org/blob/master/src/en/panduan/print-dan-scan.md" target="_blank"><br> Edit this page on Github  </a>
+            Found a mistake or want to contribute to the documentation ?  <a href="https://github.com/bantenprov/en/panduan/print-dan-scan.md" target="_blank"><br> Edit this page on Github  </a>
          
 
 
@@ -380,12 +401,12 @@
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          ga('create', 'UA-46852172-1', 'tealinuxos.org');
+          ga('create', '', 'linux.dev.bantenprov.go.id');
           ga('send', 'pageview');
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>
@@ -410,7 +431,7 @@
         <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
         <script type="text/javascript"> docsearch({
         apiKey: '81a2df272c14cc262c8b38f6a3afd683',
-        indexName: 'tealinuxos',
+        indexName: 'Linux BantOS',
         inputSelector: '#search-query-nav',
         debug: false // Set debug to true if you want to inspect the dropdown
         });

@@ -2,19 +2,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Instalasi TealinuxOS - TeaLinuxOS</title>
+        <title>Instalasi BantOS - Linux BantOS | BantOS</title>
         <meta charset="utf-8">
-        <meta name="description" content="Operating System for Your Development Environment">
+        <meta name="description" content="Operating System for Your E-Government">
         <meta name="viewport" con tent="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <meta property="og:type" content="article">
-        <meta property="og:title" content="Instalasi TealinuxOS - TeaLinuxOS">
-        <meta property="og:description" content="Operating System for Your Development Environment">
-        <meta property="og:image" content="https://tealinuxos.org/images/tealinuxos-logo.png">
+        <meta property="og:title" content="Instalasi BantOS - Linux BantOS">
+        <meta property="og:description" content="Operating System for Your E-Government">
+        <meta property="og:image" content="https://linux.dev.bantenprov.go.id/images/tealinuxos-logo.png">
 
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="Instalasi TealinuxOS - TeaLinuxOS">
-        <meta name="twitter:description" content="Operating System for Your Development Environment">
-        <meta name="twitter:image" content="https://tealinuxos.org/images/tealinuxos-logo.png">
+        <meta name="twitter:title" content="Instalasi BantOS - Linux BantOS">
+        <meta name="twitter:description" content="Operating System for Your E-Government">
+        <meta name="twitter:image" content="https://linux.dev.bantenprov.go.id/images/tealinuxos-logo.png">
 
         <link rel="icon" href="/images/tealinuxos-logos/favicon.ico" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,10 +34,30 @@
             <link rel="stylesheet" href="/css/page.css">
          
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
         <style media="screen">
             .tea-hero{
-                background: url('/images/bg-hero2.png') no-repeat bottom;
+                background: url('/images/bg-kp3b.png') no-repeat bottom;
                 background-size: cover;
+            }
+            .zoom-in-out{
+                animation-name: zoom-in-out-rules;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate-reverse;
+
+            }
+
+            @keyframes zoom-in-out-rules{
+                from{
+                    transform: scale(1,1);
+                    /* width: 70%;
+                    height: 70%; */
+                }to{
+                    transform: scale(1.5,1.5);
+                    /* width: 100%;
+                    height: 100%; */
+                }
             }
         </style>
 
@@ -52,7 +72,7 @@
         <div id="header">
   <a id="logo" href="/">
     <img src="/images/hexa-logo.png">
-    <span>TealinuxOS</span>
+    <span>Linux BantOS</span>
   </a>
   <ul id="nav">
     <li>
@@ -66,7 +86,7 @@
 <!--li><a href="/v2/guide/" class="nav-link">Dukungan</a></li-->
 
 <li><a href="/kontribusi/">Kontribusi</a></li>
-<li><a href="https://medium.com/tealinuxos" target="_blank">Blog</a></li>
+<li><a href="https://dev.bantenprov.go.id/bantos" target="_blank">Blog</a></li>
 <!-- <li class="nav-dropdown-container ecosystem">
   <a class="nav-link">Ecosystem</a><span class="arrow"></span>
   <ul class="nav-dropdown">
@@ -128,7 +148,7 @@
 <!--li><a href="/v2/guide/" class="nav-link">Dukungan</a></li-->
 
 <li><a href="/kontribusi/">Kontribusi</a></li>
-<li><a href="https://medium.com/tealinuxos" target="_blank">Blog</a></li>
+<li><a href="https://dev.bantenprov.go.id/bantos" target="_blank">Blog</a></li>
 <!-- <li class="nav-dropdown-container ecosystem">
   <a class="nav-link">Ecosystem</a><span class="arrow"></span>
   <ul class="nav-dropdown">
@@ -199,21 +219,21 @@
                 
                 
                 <li>
-                    <a href="/panduan/index.html" class="sidebar-link">Kenalan dengan TealinuxOS</a>
+                    <a href="/panduan/index.html" class="sidebar-link">Mengenal Linux BantOS</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/panduan/install.html" class="sidebar-link current">Instalasi TealinuxOS</a>
+                    <a href="/panduan/install.html" class="sidebar-link current">Instalasi BantOS</a>
                 </li>
             
                 
                 
                 
                 <li>
-                    <a href="/panduan/migrasi.html" class="sidebar-link">Migrasi dan Upgrade</a>
+                    <a href="/panduan/migrasi.html" class="sidebar-link">Migrasi ke Open Source</a>
                 </li>
             
                 
@@ -305,48 +325,48 @@
 
     
     
-      <h1>Instalasi TealinuxOS</h1>
+      <h1>Instalasi BantOS</h1>
     
-    <h2 id="Panduan-Instalasi-TealinuxOS"><a href="#Panduan-Instalasi-TealinuxOS" class="headerlink" title="Panduan Instalasi TealinuxOS"></a>Panduan Instalasi TealinuxOS</h2><p>Untuk menginstall TealinuxOS pada perangkat anda dapat mengikuti 2 cara yaitu :</p>
+    <h2 id="Panduan-Instalasi-BantOS"><a href="#Panduan-Instalasi-BantOS" class="headerlink" title="Panduan Instalasi BantOS"></a>Panduan Instalasi BantOS</h2><p>Ada 2 cara yang bisa kita lakukan untuk instalisasi BantOS pada perangkat PC dan Laptop,yaitu:<br>Untuk menginstall BantOS pada perangkat kita dapat mengikuti 2 cara yaitu :</p>
 <ul>
-<li>Menginstall dengan bootable flashdisk</li>
-<li>Menginstall dengan bootable CD<br>Apabila anda menggunakan CD anda dapat melewatkan bagian mengunduh ISO TealinuxOS dan membuat bootable flashdisk.</li>
+<li>Melalui <em>bootable</em> flashdisk</li>
+<li>Melalui <em>bootable</em> CD<br>Jika kita menggunakan CD, kita dapat melewatkan bagian <strong>Unduh ISO BantOS</strong> dan <strong>Membuat bootable ISO BantOS ke Flashdisk</strong>.</li>
 </ul>
-<h3 id="Unduh-TealinuxOS"><a href="#Unduh-TealinuxOS" class="headerlink" title="Unduh TealinuxOS"></a>Unduh TealinuxOS</h3><p>ISO tealinux dapat diunduh <a href="http://pinguin.dinus.ac.id/iso/tealinuxos/" target="_blank" rel="external">di sini</a>.</p>
-<h3 id="Membuat-Bootable-ISO-TealinuxOS-ke-Flashdisk"><a href="#Membuat-Bootable-ISO-TealinuxOS-ke-Flashdisk" class="headerlink" title="Membuat Bootable ISO TealinuxOS ke Flashdisk"></a>Membuat Bootable ISO TealinuxOS ke Flashdisk</h3><p>Untuk membuat bootable ke flashdisk anda dapat menggunakan software Third Party seperti <a href="https://universal-usb-installer.en.uptodown.com" target="_blank" rel="external">Universal USB Installer</a>, <a href="http://unetbootin.github.io" target="_blank" rel="external">Unetbootin</a> atau <a href="https://rufus.akeo.ie/" target="_blank" rel="external">Rufus</a>. Berikut adalah langkah langkah untuk membuat bootable ISO TealinuxOS ke flashdisk menggunakan Universal USB Installer.<br><img src="https://cloud.githubusercontent.com/assets/22718275/23578142/c4eae682-0102-11e7-9d76-69cd286a4406.png" alt="Bootable_1"></p>
-<p><img src="https://cloud.githubusercontent.com/assets/22718275/23578146/d6ebc932-0102-11e7-94c9-993dee8bcbe2.png" alt="Bootable_2"><br>Mengenai cara pemakaian, instalasi dan keterangan lebih lanjut dapat anda lihat di offical masing masing software.</p>
-<h3 id="Membuat-partisi-hardisk-untuk-TealinuxOS"><a href="#Membuat-partisi-hardisk-untuk-TealinuxOS" class="headerlink" title="Membuat partisi hardisk untuk TealinuxOS"></a>Membuat partisi hardisk untuk TealinuxOS</h3><p>Untuk membuat partisi hardisk anda dapat menggunakan <code>Create and format hard disk partition</code> memiliki Windows, <code>GParted</code> milik Linux, atau tools lain yang biasa anda gunakan untuk membuat partisi.<br>Ada 2 Macam partisi yang dibutuhkan oleh TealinuxOS yaitu :</p>
+<h3 id="Unduh-BantOS"><a href="#Unduh-BantOS" class="headerlink" title="Unduh BantOS"></a>Unduh BantOS</h3><p>ISO BantOS dapat diunduh <a href="http://linux.dev.bantenprov/iso/BantOS/" target="_blank" rel="noopener">Belum dapat di Unduh</a>.</p>
+<h3 id="Membuat-Bootable-ISO-BantOS-ke-Flashdisk"><a href="#Membuat-Bootable-ISO-BantOS-ke-Flashdisk" class="headerlink" title="Membuat Bootable ISO BantOS ke Flashdisk"></a>Membuat Bootable ISO BantOS ke Flashdisk</h3><p>Untuk membuat bootable ke flashdisk anda dapat menggunakan software <em>Third Party</em> seperti <a href="https://universal-usb-installer.en.uptodown.com" target="_blank" rel="noopener">Universal USB Installer</a>, <a href="http://unetbootin.github.io" target="_blank" rel="noopener">Unetbootin</a> atau <a href="https://rufus.akeo.ie/" target="_blank" rel="noopener">Rufus</a>. Berikut adalah langkah-langkah untuk membuat bootable ISO TealinuxOS ke flashdisk menggunakan Universal USB Installer.<br><img src="https://cloud.githubusercontent.com/assets/22718275/23578142/c4eae682-0102-11e7-9d76-69cd286a4406.png" alt="Bootable_1"></p>
+<p><img src="https://cloud.githubusercontent.com/assets/22718275/23578146/d6ebc932-0102-11e7-94c9-993dee8bcbe2.png" alt="Bootable_2"><br>Mengenai cara penggunaan, instalasi dan keterangan lainya dapat Anda lihat di Website resmi dari masing-masing software tersebut.</p>
+<h3 id="Membuat-partisi-hardisk-untuk-BantOS"><a href="#Membuat-partisi-hardisk-untuk-BantOS" class="headerlink" title="Membuat partisi hardisk untuk BantOS"></a>Membuat partisi hardisk untuk BantOS</h3><p>Untuk membuat partisi hardisk Anda dapat menggunakan <code>Create and format hard disk partition</code> milik Windows, <code>GParted</code> milik Linux, atau <em>tools</em> lain yang biasa Anda gunakan untuk membuat partisi.<br>Ada 2 Macam partisi yang dibutuhkan oleh BantOS yaitu :</p>
 <ul>
-<li><p>Partisi dengan format <code>ext4</code>. Partisi ini berfungsi sebagai tempat setiap file system tealinuxos.<br>Sebagai contoh kami membuat partisi sebesar 50GB atau 50000Mb. Klik kanan pada disk yang ingin di shrink / dipecah. Kenapa harus 50GB ?, karena ukuran 50GB itu ukuran yang ideal, ukuran minimalnya untuk linux ialah 20GB.<br><img src="https://cloud.githubusercontent.com/assets/22718275/23578147/e2c49112-0102-11e7-868e-611db63be0a2.png" alt="Partition_1"></p>
+<li><p>Partisi dengan format <code>ext4</code>. Partisi ini berfungsi sebagai tempat setiap file system bantOS.<br>Sebagai contoh kami membuat partisi sebesar 50GB atau 50000Mb. Klik kanan pada disk yang ingin di <em>shrink</em> (dipecah). Kenapa harus 50GB ?, karena ukuran 50GB itu ukuran yang ideal untuk sistem operasi linux. ukuran minimalnya untuk linux ialah 20GB.<br><img src="https://cloud.githubusercontent.com/assets/22718275/23578147/e2c49112-0102-11e7-868e-611db63be0a2.png" alt="Partition_1"></p>
 <p><img src="https://cloud.githubusercontent.com/assets/22718275/23578150/f11bd6d0-0102-11e7-815c-b4648866def9.png" alt="Partition_2"></p>
 </li>
-<li><p>Partisi dengan format <code>linux-swap</code>. Partisi ini berfungsi untuk membantu kerja RAM dalam memanajemen memory.<br>Untuk partisi swap kami merekon</p>
+<li><p>Partisi dengan format <code>linux-swap</code>. Partisi ini berfungsi untuk membantu kerja RAM dalam memanajemen memori.<br>Untuk ukuran partisi <code>linux-swap</code> kami merekomendasikan 2GB.</p>
 </li>
 </ul>
-<h3 id="Proses-Instalasi-TealinuxOS"><a href="#Proses-Instalasi-TealinuxOS" class="headerlink" title="Proses Instalasi TealinuxOS"></a>Proses Instalasi TealinuxOS</h3><ol>
-<li>Setelah anda memiliki bootable, pastikan anda menghubungkan bootable tersebut ke perangkat anda.</li>
-<li>Restart perangkat anda untuk memulai proses instalasi TealinuxOS.</li>
-<li>Arahkan booting option ke bootable anda. Anda dapat masuk ke BIOS lalu ubah mode BIOS ke Legacy (jika sebelumnya menggunakan mode UEFI/EFI).</li>
-<li>Selanjutnya ubah boot priority USB HDD(): ke urutan pertama jika anda menggunakan flashdisk atau ubah boot priority CD(): ke urutan pertama jika anda menggunakan CD.</li>
-<li>Simpan pengaturan anda dan restart.</li>
+<h3 id="Proses-Instalasi-BantOS"><a href="#Proses-Instalasi-BantOS" class="headerlink" title="Proses Instalasi BantOS"></a>Proses Instalasi BantOS</h3><ol>
+<li>Setelah Anda memiliki <em>bootable</em> BantOS, pastikan kita  menghubungkan <em>bootable</em> tersebut ke perangkat kita.</li>
+<li>Restart perangkat Anda untuk memulai proses instalasi BantOS.</li>
+<li>Arahkan <em>booting option</em> ke perangkat <em>bootable</em>. Anda dapat masuk ke BIOS kemudian ubah mode BIOS ke <code>Legacy</code> (jika sebelumnya menggunakan mode <code>UEFI/EFI</code>).</li>
+<li>Selanjutnya ubah boot priority USB HDD(): ke urutan pertama jika anda menggunakan flashdisk atau ubah boot priority CD(): ke urutan pertama jika Anda menggunakan CD.</li>
+<li>Simpan pengaturan pada BIOS Anda kemudian restart.</li>
 <li>Tunggu beberapa saat sampai muncul menu seperti berikut :<br><img src="https://cloud.githubusercontent.com/assets/22718275/23685947/5be6f430-03d9-11e7-89c0-d55cfb593f9e.png" alt="menu-install"></li>
-<li>Pilih <code>Try TealinuxOS</code> untuk mencoba atau <code>Install TealinuxOS</code> untuk langsung menginstall. Apabila anda memilih Install TealinuxOS anda dapat melewati langkah ke 6 dan 7.</li>
-<li>Tunggu beberapa saat sampai muncul desktop TealinuxOS sepertin berikut :<br><img src="https://cloud.githubusercontent.com/assets/22718275/23685964/736151be-03d9-11e7-9b11-23af4063ab3b.png" alt="try-install"><br>Jika menghendaki, anda dapat mencoba terlebih dahulu fitur-fitur yang terdapat pada TealinuxOS sebelum menginstallnya. Jika menghendaki untuk menginstall TealinuxOS, klik icon Install TealinuxOS pada desktop.</li>
+<li>Pilih <code>Try BantOS</code> untuk mencoba atau <code>Install BantOS</code> untuk langsung menginstall. Apabila Anda memilih Install TealinuxOS Anda dapat melewati langkah ke 6 dan 7.</li>
+<li>Tunggu beberapa saat sampai muncul desktop TealinuxOS seperti berikut :<br><img src="https://cloud.githubusercontent.com/assets/22718275/23685964/736151be-03d9-11e7-9b11-23af4063ab3b.png" alt="try-install"><br>Anda dapat mencoba terlebih dahulu fitur-fitur yang terdapat pada TealinuxOS sebelum menginstallnya. Tetapi jika Anda langsung ingin memasang TealinuxOS, klik icon <em>Install TealinuxOS</em> pada desktop.</li>
 <li>Selanjutnya akan muncul antarmuka sebagai berikut.<br><img src="https://cloud.githubusercontent.com/assets/22718275/23685988/96e996fa-03d9-11e7-9cc0-b5664ed27a17.png" alt="language"><br>Anda diminta untuk memilih bahasa yang akan digunakan dalam TealinuxOS. Klik ok untuk lanjut.</li>
-<li>Selanjutnya anda diminta untuk memilih untuk mendownload software third party atau tidak. Klik ok untuk lanjut.<br><img src="https://cloud.githubusercontent.com/assets/22718275/23685998/a811ae18-03d9-11e7-8c6f-1900f9a85b7d.png" alt="preparing"></li>
+<li>Selanjutnya Anda diminta untuk memilih untuk mendownload <em>software third party</em> atau tidak. Klik ok untuk lanjut.<br><img src="https://cloud.githubusercontent.com/assets/22718275/23685998/a811ae18-03d9-11e7-8c6f-1900f9a85b7d.png" alt="preparing"></li>
 <li>Selanjutnya anda diminta untuk memilih prosedur penginstalan sebagai berikut :<ul>
-<li>Install TeaLinuxOS Alongside Them<br>Pilihan ini dapat menyimpan berkas anda seperti document, dll.</li>
-<li>Erase disk and Install TeaLinuxOS<br>Pilihan ini menghapus semua Disk anda pilihan ini dikhususkan bagi anda yang tidak ingin dualboot, karena pilihan ini akan menghapus semua OS dan data yang ada.</li>
-<li>Something else<br>Pilihan ini dikhususkan bagi anda yang ingin dualboot. Karena didalam pilihan ini anda dapat mengatur partisi yang telah kita buat diawal tadi.<br><img src="https://cloud.githubusercontent.com/assets/22718275/23686028/cd308aac-03d9-11e7-9fa7-217fd1f7ac08.png" alt="instalaltion"><br>Pilih something else lalu klik ok.</li>
+<li><em>Install TeaLinuxOS Alongside Them</em><br>Pilihan ini dapat menyimpan berkas anda seperti dokumen, dll.</li>
+<li><em>Erase disk and Install TeaLinuxOS</em><br>Pilihan ini menghapus semua Disk Anda. Pilihan ini dikhususkan bagi Anda yang tidak ingin dualboot, karena pilihan ini akan menghapus semua OS dan data yang ada.</li>
+<li><em>Something else</em><br>Pilihan ini dikhususkan bagi anda yang ingin dualboot. Karena didalam pilihan ini Anda dapat mengatur partisi yang telah kita buat diawal tadi.<br><img src="https://cloud.githubusercontent.com/assets/22718275/23686028/cd308aac-03d9-11e7-9fa7-217fd1f7ac08.png" alt="instalaltion"><br>Pilih something else lalu klik ok.</li>
 </ul>
 </li>
 <li>Anda akan mendapatkan antarmuka seperti berikut :<br><img src="https://cloud.githubusercontent.com/assets/22718275/23686041/e39d8f38-03d9-11e7-8836-e749fb8b0794.png" alt="partiton_1"><br>Seperti yang anda lihat pada antarmuka tersebut, terdapat 2 buah partisi yang anda telah buat pada langkah sebelumnya yaitu <code>/dev/sda1</code> yang berukuran 50GB dan <code>/dev/sda5</code> yang berukuran 2GB. Sebagai informasi nama partisi dapat berbeda antara tutorial ini dan perangkat anda.</li>
 <li>Selanjutnya ubah tipe partisi <code>/dev/sda1</code> dengan cara klik tombol change. Atur menjadi <code>ext4</code>, format partisi dan juga arahkan mount point ke <code>/</code>. Klik OK untuk lanjut.<br><img src="https://cloud.githubusercontent.com/assets/22718275/23686049/f5030230-03d9-11e7-8834-7ecac4b9b6bb.png" alt="Partition_2"><br><img src="https://cloud.githubusercontent.com/assets/22718275/23686061/03f969f0-03da-11e7-8bda-eb56c7c8cf04.png" alt="partition_3"></li>
 <li>Selanjutnya ubah tipe partisi <code>/dev/sda5</code> dengan cara klik tombol change. Atur menjadi <code>swap area</code>. Klik OK untuk lanjut.<br><img src="https://cloud.githubusercontent.com/assets/22718275/23686081/1fbf6266-03da-11e7-8daa-4a60c06703e5.png" alt="Partition_4"><br><img src="https://cloud.githubusercontent.com/assets/22718275/23686146/6dbf052a-03da-11e7-85e3-e844b273f694.png" alt="partition_5"></li>
 <li>Selanjutnya akan tampil persetujuan sebagai berikut :<br><img src="https://cloud.githubusercontent.com/assets/22718275/23686161/857a51e2-03da-11e7-8011-a9fb063761b4.png" alt="Partition_6"><br>Klik continue untuk lanjut.</li>
-<li>Selanjutnya anda diminta untuk memilih waktu dan tempat<br><img src="https://cloud.githubusercontent.com/assets/22718275/23686187/a58ca03e-03da-11e7-827a-01f86abe8ec3.png" alt="time-and-region"></li>
-<li>Selanjutnya anda diminta untuk memilih tipe keyboard<br><img src="https://cloud.githubusercontent.com/assets/22718275/23686208/b682f4ce-03da-11e7-8dcb-85c8ef2cbbad.png" alt="keyboard"></li>
-<li>Selanjutnya anda diminta untuk mengisi data diri<br><img src="https://cloud.githubusercontent.com/assets/22718275/23686238/d5fdd5e4-03da-11e7-8387-626587c4ede8.png" alt="whoru"></li>
+<li>Selanjutnya Anda diminta untuk memilih waktu dan tempat.<br><img src="https://cloud.githubusercontent.com/assets/22718275/23686187/a58ca03e-03da-11e7-827a-01f86abe8ec3.png" alt="time-and-region"></li>
+<li>Selanjutnya Anda diminta untuk memilih tipe keyboard.<br><img src="https://cloud.githubusercontent.com/assets/22718275/23686208/b682f4ce-03da-11e7-8dcb-85c8ef2cbbad.png" alt="keyboard"></li>
+<li>Selanjutnya Anda diminta untuk mengisi data diri.<br><img src="https://cloud.githubusercontent.com/assets/22718275/23686238/d5fdd5e4-03da-11e7-8387-626587c4ede8.png" alt="whoru"></li>
 <li>Tunggu beberapa saat proses sampai proses instalasi tealinuxos selesai.<br><img src="https://cloud.githubusercontent.com/assets/22718275/23686286/31ab73ec-03db-11e7-8292-173401c6851a.png" alt="installaltion"></li>
 <li>Restart dan nikmati tealinuxos.<br><img src="https://cloud.githubusercontent.com/assets/22718275/23686381/df3fda20-03db-11e7-9ee1-a811f1646f36.png" alt="success"></li>
 </ol>
@@ -355,17 +375,17 @@
     
       <div class="guide-links">
         
-          <span>← <a href="/panduan/index.html">Kenalan dengan TealinuxOS</a></span>
+          <span>← <a href="/panduan/index.html">Mengenal Linux BantOS</a></span>
         
         
-          <span style="float:right"><a href="/panduan/migrasi.html">Migrasi dan Upgrade</a> →</span>
+          <span style="float:right"><a href="/panduan/migrasi.html">Migrasi ke Open Source</a> →</span>
         
       </div>
     
 
     <div class="footer">
         
-            Menemukan kesahalan atau ingin berkontribusi pada dokumentasi ini ?  <a href="https://github.com/doscom/tealinuxos.org/blob/master/src/panduan/install.md" target="_blank"><br> Sunting halaman ini secara langsung di Github  </a>
+            Menemukan masalah atau ingin berkontribusi pada dokumentasi ini ?  <a href="https://github.com/bantenprov/panduan/install.md" target="_blank"><br> Sunting halaman ini secara langsung di Github  </a>
         
 
 
@@ -387,12 +407,12 @@
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          ga('create', 'UA-46852172-1', 'tealinuxos.org');
+          ga('create', '', 'linux.dev.bantenprov.go.id');
           ga('send', 'pageview');
         </script>
 
         <!-- search -->
-        <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+        <!-- <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'> -->
         <link rel="stylesheet" href="/css/search.css">
         <!-- <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
         <script>
@@ -417,7 +437,7 @@
         <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
         <script type="text/javascript"> docsearch({
         apiKey: '81a2df272c14cc262c8b38f6a3afd683',
-        indexName: 'tealinuxos',
+        indexName: 'Linux BantOS',
         inputSelector: '#search-query-nav',
         debug: false // Set debug to true if you want to inspect the dropdown
         });

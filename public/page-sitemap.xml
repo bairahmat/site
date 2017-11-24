@@ -1,217 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://tealinuxos.github.io</loc>
+        <loc>http://linux.dev.bantenprov.go.id</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/panduan/pengenalan-de.html</loc>
-        <lastmod>2017-05-12T17:38:06.041Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/panduan/</loc>
+        <lastmod>2017-11-24T16:45:01.270Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/panduan/pengaturan.html</loc>
-        <lastmod>2017-05-12T17:37:59.972Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/panduan/migrasi.html</loc>
+        <lastmod>2017-11-24T16:34:05.695Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/panduan/migrasi.html</loc>
-        <lastmod>2017-05-12T17:37:53.936Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/panduan/install.html</loc>
+        <lastmod>2017-11-24T14:43:27.728Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/panduan/install.html</loc>
-        <lastmod>2017-05-12T17:37:43.320Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/panduan/menjaga-keamanan.html</loc>
+        <lastmod>2017-11-24T05:18:32.189Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/kontribusi/</loc>
-        <lastmod>2017-05-12T17:28:01.213Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/panduan/pengaturan.html</loc>
+        <lastmod>2017-11-24T05:18:32.189Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/panduan/aplikasi-tea.html</loc>
-        <lastmod>2017-05-11T18:08:15.749Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/panduan/pengenalan-de.html</loc>
+        <lastmod>2017-11-24T05:18:32.189Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/panduan/koneksi.html</loc>
-        <lastmod>2017-05-11T18:07:52.808Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/panduan/perangkat-keras.html</loc>
+        <lastmod>2017-11-24T05:18:32.189Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/panduan/</loc>
-        <lastmod>2017-05-11T18:03:05.993Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/panduan/perintah-baris.html</loc>
+        <lastmod>2017-11-24T05:18:32.189Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/panduan/</loc>
-        <lastmod>2017-05-11T17:58:10.156Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/panduan/print-dan-scan.html</loc>
+        <lastmod>2017-11-24T05:18:32.189Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/panduan/administrasi.html</loc>
-        <lastmod>2017-04-29T13:11:16.909Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/</loc>
-        <lastmod>2017-04-29T12:51:29.089Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/en/</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/panduan/menjaga-keamanan.html</loc>
-        <lastmod>2017-04-29T12:51:29.089Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/kontribusi/</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/panduan/perangkat-keras.html</loc>
-        <lastmod>2017-04-29T12:51:29.089Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/panduan/administrasi.html</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/panduan/print-dan-scan.html</loc>
-        <lastmod>2017-04-29T12:51:29.089Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/panduan/aplikasi-tea.html</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/panduan/perintah-baris.html</loc>
-        <lastmod>2017-04-29T12:51:29.089Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/panduan/koneksi.html</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/</loc>
-        <lastmod>2017-04-29T12:51:29.085Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/panduan/mengelola-aplikasi.html</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/panduan/administrasi.html</loc>
-        <lastmod>2017-04-29T12:51:29.085Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/en/kontribusi/</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/kontribusi/</loc>
-        <lastmod>2017-04-29T12:51:29.085Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/en/panduan/administrasi.html</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/en/panduan/mengelola-aplikasi.html</loc>
-        <lastmod>2017-04-29T12:51:29.085Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/en/panduan/aplikasi-tea.html</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/panduan/aplikasi-tea.html</loc>
-        <lastmod>2017-04-29T12:48:43.899Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/en/panduan/</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/panduan/install.html</loc>
-        <lastmod>2017-04-29T12:48:43.899Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/en/panduan/install.html</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/panduan/koneksi.html</loc>
-        <lastmod>2017-04-29T12:48:43.899Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/en/panduan/koneksi.html</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/panduan/mengelola-aplikasi.html</loc>
-        <lastmod>2017-04-29T12:48:43.899Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/en/panduan/menjaga-keamanan.html</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/panduan/menjaga-keamanan.html</loc>
-        <lastmod>2017-04-29T12:48:43.899Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/en/panduan/mengelola-aplikasi.html</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/panduan/migrasi.html</loc>
-        <lastmod>2017-04-29T12:48:43.899Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/en/panduan/migrasi.html</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/panduan/pengaturan.html</loc>
-        <lastmod>2017-04-29T12:48:43.899Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/en/panduan/pengaturan.html</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/panduan/pengenalan-de.html</loc>
-        <lastmod>2017-04-29T12:48:43.899Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/en/panduan/pengenalan-de.html</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/panduan/perintah-baris.html</loc>
-        <lastmod>2017-04-29T12:48:43.899Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/en/panduan/perangkat-keras.html</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/panduan/perangkat-keras.html</loc>
-        <lastmod>2017-04-29T12:48:43.899Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/en/panduan/perintah-baris.html</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://tealinuxos.github.io/panduan/print-dan-scan.html</loc>
-        <lastmod>2017-04-29T12:48:43.899Z</lastmod>
+        <loc>http://linux.dev.bantenprov.go.id/en/panduan/print-dan-scan.html</loc>
+        <lastmod>2017-11-24T05:18:32.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
