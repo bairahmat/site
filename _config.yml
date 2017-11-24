@@ -3,7 +3,7 @@ title: BantOS
 subtitle: Linux BantOS
 description: Distribusi Linux BantOS
 author: DevBanten - Tim Developer Banten 
-email:admin@dev.bantenprov.go.id
+email: admin@dev.bantenprov.go.id
 language: [id, en]
 i18n:
   type: [page, post]
