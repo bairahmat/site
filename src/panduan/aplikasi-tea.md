@@ -6,10 +6,10 @@ order: 106
 
 ## Aplikasi Multimedia
 
-![multimedia](images/multimedia.png)
+![Aplikasi multimedia](/src/images/multimedia.png)
 
 ### Audacious
-Audacious adalah sebuah perangkat lunak pemutar media berlisensi bebas yang berfokus dengan penggunaan sumber daya komputer yang rendah, kualitas suara yang tinggi dan mendukung berbagai jenis format. Untuk mengetahui lebih lanjut silahkan berkunjung ke website resmi audacious [Audacious] (http://audacious-media-player.org).
+Audacious adalah sebuah perangkat lunak pemutar media berlisensi bebas yang berfokus dengan penggunaan sumber daya komputer yang rendah, kualitas suara yang tinggi dan mendukung berbagai jenis format. Untuk mengetahui lebih lanjut silahkan berkunjung ke website resmi audacious [Audacious](http://audacious-media-player.org).
 
 ### VLC
 VLC Media Player merupakan perangkat lunak (software) pemutar beragam berkas (file) multimedia, baik video maupun audio dalam berbagai format, seperti MPEG, DivX, Ogg, dan lain-lain. VLC Media Player juga dapat digunakan untuk memutar DVD,VCD, maupun CD. VLC Media Player bersifat sumber terbuka (open source) dan tersedia untuk berbagai sistem operasi. Mulai dari Microsoft Windows, beragam distro Linux, Mac OS, dan beberapa sistem operasi lainnya [VLC](http://www.videolan.org/vlc/).
