@@ -1,6 +1,6 @@
 # Linux BantOS
 
-[![Build Status](https://travis-ci.org/bairahmat/tealinuxos.org.svg?branch=master)](https://travis-ci.org/bairahmat/tealinuxos.org)
+[![Build Status](https://travis-ci.org/profile/bairahmat?branch=master)](https://travis-ci.org/profile/bairahmat)
 
 This site is built with [hexo](http://hexo.io/). Site content is written in Markdown format located in `src`. Pull requests welcome!
 
