@@ -9,8 +9,8 @@ before_install:
 install:
 - npm install
 before_script:
-- git config --global user.name 'tealinuxos via Travis CI'
-- git config --global user.email 'mailpakgasing@gmail.com'
+- git config --global user.name 'bairahmat via Travis CI'
+- git config --global user.email 'sajiramekar.net@gmail.com'
 script:
 - hexo clean
 - hexo generate
