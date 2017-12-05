@@ -27,7 +27,7 @@ Linux BantOS sebagai distro pemula yang akan segera hadir pada akhir Desember 20
 BantOS 1.0 (Leuit)
 Versi rilis pertama yang diluncurkan adalah Code Name : BantOS 1.0 ("Leuit"). 
 
-Folosofi Leuit merupakan bangunan tradisional masyarakat Banten untuk menyimpan padi. Leuit dapat menyimpan padi hingga 100 tahun lamanya. Leuit yang dibangun secara sederhana, Leuit memiliki kemampuan tahan cuaca, tahan hama penyakit, dan memiliki sistem tata udara yang baik sehingga bisa menyimpan padi dalam jangka waktu yang lama. Leuit mengajarkan kita tentang menjaga keberlangsungan sesuatu yang berguna dalam jangka waktu yang lama.
+Folosofi Leuit merupakan bangunan tradisional masyarakat Banten untuk menyimpan padi. Leuit dapat menyimpan padi hingga 100 tahun lamanya. Leuit dibangun secara sederhana, memiliki kemampuan tahan cuaca, tahan hama penyakit, dan memiliki sistem tata udara yang baik sehingga bisa menyimpan padi dalam jangka waktu yang lama. Leuit mengajarkan kita tentang menjaga keberlangsungan sesuatu yang berguna dalam jangka waktu yang lama.
 
 ### GNOME
 
