@@ -23,6 +23,7 @@ Multimedia Codec library yang memudahkan anda dapat memutar video-video dan musi
 Linux BantOS telah menyediakan paket software perkantoran yaitu WPS Office yang terdiri dari WPS writer untuk pengolahan dokumen, WPS Presentation untuk pengolahan presentasi, WPS Spreedshet untuk pengolahan data spreadsheet. Informasi lebih lanjut silahkan kunjungi website resmi [WPS Office](http://wps.com). 
 
 ## Aplikasi Browser
+![Aplikasi Browser](/src/images/browser.png)
 
 ### Firefox
 Firefox merupakan browser yang sudah cukup tua sehingga stabil dan aman. BantOS telah menyediakan browser Firefox sebagai deffault browser untuk menunjang produktifitas pengguna. Untuk mengetahui tentang Firefox dan berbagai fitur yang disediakannya anda dapat berkunjung ke website resmi [Firefox](https://www.mozilla.org/id/firefox).
