@@ -6,29 +6,26 @@ order: 101
 
 ## Apa itu BantOS?
 
-[Linux BantOS](http://linux.dev.bantenprov.go.id/) adalah distro Linux turunan Debian yang dikembangkan oleh [Tim Developer Banten](http://dev.bantenprov.go.id/) yang berorientasi Banten Go Open Source, dan akan segera hadir di Desember 2017.
+[Linux BantOS](http://linux.dev.bantenprov.go.id/) adalah distro Linux turunan Ubuntu9Debian) yang dikembangkan oleh [Tim Developer Banten](http://dev.bantenprov.go.id/) yang berorientasi untun Banten Government Open Source, dan akan segera hadir di Desember 2017.
 
-> Go Open Source Software [@devbanten](https://www.twitter.com/devbanten/)
+> Banten Government Open Source Software [@devbanten](https://www.twitter.com/devbanten/)
 
-Linux BantOS dikembangkan secara terbuka dan bersama-sama untuk menghasilkan distro Linux yang dikhususkan untuk dunia Pemerintahan dan Pendidikan.
+Linux BantOS akan dikembangkan secara terbuka dan bersama-sama untuk dapat menghasilkan distro Linux untuk dunia Pemerintahan dan Pendidikan khususnya di Provinsi Banten.
 
 ### Nama
 
-Linux BantOS – Go Open Source Software! Kami menggunakan nama distro Linux BantOS karena beberapa pemikiran, yaitu BantOS yang dalam bahasa sunda  berarti membantu, merupakan tugas manusia _Rahmatan Lil Alamin_. Kami berharap Linux BantOS dapat memenuhi kebutuhan penggunanya, terutama untuk Dunia Pemerintahan dan Pendidikan..
+Linux BantOS – Kami menggunakan nama distro Linux BantOS karena beberapa pemikiran, yaitu BantOS yang dalam bahasa sunda  berarti membantu. Kami berharap adanya Linux BantOS dapat memenuhi kebutuhan pengguna, terutama untuk Dunia Pemerintahan dan Pendidikan.
 
 ### Versi Rilis
 
 Linux BantOS sebagai distro pemula yang akan segera hadir pada akhir Desember 2017 :
 
-* Linux BantOS ver 1.0 Code Name : DevBanten, based on Debian 9.0.
+* Linux BantOS ver 1.0 Code Name : Leuit, based on Ubuntu 16.04.
 
 ### Rilis Comming Soon
 
-Versi yang akan diluncurkan dari Linux BantOS adalah BantOS 1.0 Devbanten yang dibuat dari core debian 9.0, Gnome dan paper-gtk-theme.
-
-#### Debian 9.0 LTS
-
-Debian merupakan sistem operasi dengan menghadirkan kestabilan dan mudah digunakan dan dengan edisi LTS “_Long Term Support_” ini membuat Linux BantOS yang berbasis Debian versi ini mendapat dukungan jangka panjang selama 5 tahun sehingga senantiasa stabil, handal dan aman. Untuk informasi lebih lanjut mengenai Debian anda dapat berkunjung di website resmi [Debian](http://debian.org/).
+BantOS 1.0 (Leuit)
+Versi rilis pertama yang diluncurkan adalah Code Name : BantOS 1.0 ("Leuit"). Folosofi Leuit merupakan bangunan tradisional masyarakat Banten untuk menyimpan padi. Leuit dapat menyimpan padi hingga 100 tahun lamanya. Leuit yang dibangun secara sederhana, Leuit memiliki kemampuan tahan cuaca, tahan hama penyakit, dan memiliki sistem tata udara yang baik sehingga bisa menyimpan padi dalam jangka waktu yang lama. Leuit mengajarkan kita tentang menjaga keberlangsungan sesuatu yang berguna dalam jangka waktu yang lama.
 
 ### GNOME
 
