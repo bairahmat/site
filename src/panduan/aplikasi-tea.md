@@ -6,7 +6,7 @@ order: 106
 
 ## Aplikasi Multimedia
 
-![multimedia](https://cloud.githubusercontent.com/assets/26142091/23577778/c11fde0c-00fa-11e7-8244-ec175efb3fde.png)
+![multimedia](images/multimedia.png)
 
 ### Audacious
 Audacious adalah sebuah perangkat lunak pemutar media berlisensi bebas yang berfokus dengan penggunaan sumber daya komputer yang rendah, kualitas suara yang tinggi dan mendukung berbagai jenis format. Untuk mengetahui lebih lanjut silahkan berkunjung ke website resmi audacious [Audacious] (http://audacious-media-player.org).
