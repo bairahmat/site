@@ -16,10 +16,10 @@ Jika kita menggunakan CD, kita dapat melewatkan bagian **Unduh ISO BantOS** dan 
 ISO BantOS dapat diunduh [Belum dapat di Unduh](http://linux.dev.bantenprov/iso/BantOS/).
 
 ### Proses Instalasi BantOS
-1. Setelah Anda memiliki _bootable_ BantOS, pastikan kita  menghubungkan _bootable_ tersebut ke perangkat kita.
+1. Setelah Anda memiliki CD/DVD instaler atau _bootable_ BantOS, pastikan kita  menghubungkan media tersebut ke perangkat kita.
 2. Restart perangkat Anda untuk memulai proses instalasi BantOS.
 3. Arahkan _booting option_ ke perangkat _bootable_. Anda dapat masuk ke BIOS kemudian ubah mode BIOS ke `Legacy` (jika sebelumnya menggunakan mode `UEFI/EFI`).
-4. Selanjutnya ubah boot priority USB HDD(): ke urutan pertama jika anda menggunakan flashdisk atau ubah boot priority CD(): ke urutan pertama jika Anda menggunakan CD.
+4. Selanjutnya ubah boot priority ke urutan pertama jika anda menggunakan flashdisk atau ubah boot priority CD(): ke urutan pertama jika Anda menggunakan CD.
 5. Simpan pengaturan pada BIOS Anda kemudian restart.
 6. Tunggu beberapa saat sampai muncul menu seperti berikut :
    ![menu-install](https://cloud.githubusercontent.com/assets/22718275/23685947/5be6f430-03d9-11e7-89c0-d55cfb593f9e.png)
