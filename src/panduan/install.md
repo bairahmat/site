@@ -15,26 +15,6 @@ Jika kita menggunakan CD, kita dapat melewatkan bagian **Unduh ISO BantOS** dan 
 ### Unduh BantOS
 ISO BantOS dapat diunduh [Belum dapat di Unduh](http://linux.dev.bantenprov/iso/BantOS/).
 
-### Membuat Bootable ISO BantOS ke Flashdisk
-Untuk membuat bootable ke flashdisk anda dapat menggunakan software _Third Party_ seperti [Universal USB Installer](https://universal-usb-installer.en.uptodown.com), [Unetbootin](http://unetbootin.github.io) atau [Rufus](https://rufus.akeo.ie/). Berikut adalah langkah-langkah untuk membuat bootable ISO TealinuxOS ke flashdisk menggunakan Universal USB Installer.
-![Bootable_1](https://cloud.githubusercontent.com/assets/22718275/23578142/c4eae682-0102-11e7-9d76-69cd286a4406.png)
-
-![Bootable_2](https://cloud.githubusercontent.com/assets/22718275/23578146/d6ebc932-0102-11e7-94c9-993dee8bcbe2.png)
-Mengenai cara penggunaan, instalasi dan keterangan lainya dapat Anda lihat di Website resmi dari masing-masing software tersebut.
-
-### Membuat partisi hardisk untuk BantOS
-Untuk membuat partisi hardisk Anda dapat menggunakan `Create and format hard disk partition` milik Windows, `GParted` milik Linux, atau _tools_ lain yang biasa Anda gunakan untuk membuat partisi.
-Ada 2 Macam partisi yang dibutuhkan oleh BantOS yaitu :
-- Partisi dengan format `ext4`. Partisi ini berfungsi sebagai tempat setiap file system bantOS.
-  Sebagai contoh kami membuat partisi sebesar 50GB atau 50000Mb. Klik kanan pada disk yang ingin di _shrink_ (dipecah). Kenapa harus 50GB ?, karena ukuran 50GB itu ukuran yang ideal untuk sistem operasi linux. ukuran minimalnya untuk linux ialah 20GB.
-  ![Partition_1](https://cloud.githubusercontent.com/assets/22718275/23578147/e2c49112-0102-11e7-868e-611db63be0a2.png)
-
-  ![Partition_2](https://cloud.githubusercontent.com/assets/22718275/23578150/f11bd6d0-0102-11e7-815c-b4648866def9.png)
-
-- Partisi dengan format `linux-swap`. Partisi ini berfungsi untuk membantu kerja RAM dalam memanajemen memori.
-  Untuk ukuran partisi `linux-swap` kami merekomendasikan 2GB.
-
-
 ### Proses Instalasi BantOS
 1. Setelah Anda memiliki _bootable_ BantOS, pastikan kita  menghubungkan _bootable_ tersebut ke perangkat kita.
 2. Restart perangkat Anda untuk memulai proses instalasi BantOS.
