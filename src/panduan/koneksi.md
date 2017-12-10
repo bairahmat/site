@@ -6,7 +6,6 @@ order: 107
 
 ## Menyambung dan Memutuskan jaringan
 
- ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  `→ Settings → Network Connection`
 atau klik icon ![networkmanager](https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png)
  `NetworkManager` yang berada di panel `→ Edit.`
