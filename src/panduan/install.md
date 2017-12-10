@@ -24,14 +24,9 @@ ISO BantOS dapat diunduh [Belum dapat di Unduh](http://linux.dev.bantenprov/iso/
 6. Tunggu beberapa saat sampai muncul menu seperti berikut :
    ![menu-install](/src/images/install-id.png)
 7. Pilih `Coba BantOS` untuk mencoba atau `Pasang BantOS` untuk langsung menginstall. Apabila Anda memilih Install BantOS Anda dapat melewati langkah ke 6 dan 7.
-8. Tunggu beberapa saat sampai muncul desktop TealinuxOS seperti berikut :
-   ![try-install](https://cloud.githubusercontent.com/assets/22718275/23685964/736151be-03d9-11e7-9b11-23af4063ab3b.png)
    Anda dapat mencoba terlebih dahulu fitur-fitur yang terdapat pada TealinuxOS sebelum menginstallnya. Tetapi jika Anda langsung ingin memasang TealinuxOS, klik icon _Install TealinuxOS_ pada desktop.
-9. Selanjutnya akan muncul antarmuka sebagai berikut.
-   ![language](https://cloud.githubusercontent.com/assets/22718275/23685988/96e996fa-03d9-11e7-9cc0-b5664ed27a17.png)
-   Anda diminta untuk memilih bahasa yang akan digunakan dalam TealinuxOS. Klik ok untuk lanjut.
-11. Selanjutnya Anda diminta untuk memilih untuk mendownload _software third party_ atau tidak. Klik ok untuk lanjut.
-    ![preparing](https://cloud.githubusercontent.com/assets/22718275/23685998/a811ae18-03d9-11e7-8c6f-1900f9a85b7d.png)
+8. Selanjutnya Anda diminta untuk memilih untuk mendownload _software third party_ atau tidak. Klik ok untuk lanjut.
+    ![preparing](/src/images/install-bantos-2.png)
 12. Selanjutnya anda diminta untuk memilih prosedur penginstalan sebagai berikut :
     - _Install TeaLinuxOS Alongside Them_
       Pilihan ini dapat menyimpan berkas anda seperti dokumen, dll.
