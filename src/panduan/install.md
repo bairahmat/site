@@ -24,22 +24,20 @@ ISO BantOS dapat diunduh [Belum dapat di Unduh](http://linux.dev.bantenprov/iso/
 6. Tunggu beberapa saat sampai muncul menu seperti berikut :
    ![menu-install](/src/images/install-id.png)
 7. Pilih `Coba BantOS` untuk mencoba atau `Pasang BantOS` untuk langsung menginstall. Apabila Anda memilih Install BantOS Anda dapat melewati langkah ke 6 dan 7.
-   Anda dapat mencoba terlebih dahulu fitur-fitur yang terdapat pada TealinuxOS sebelum menginstallnya. Tetapi jika Anda langsung ingin memasang TealinuxOS, klik icon _Install TealinuxOS_ pada desktop.
+   Anda dapat mencoba terlebih dahulu fitur-fitur yang terdapat pada BantOS sebelum menginstallnya. Tetapi jika Anda langsung ingin memasang BantOS, klik icon _Pasang BantOS_ pada desktop.
 8. Selanjutnya Anda diminta untuk memilih untuk mendownload _software third party_ atau tidak. Klik ok untuk lanjut.
     ![preparing](/src/images/install-bantos-2.png)
-12. Selanjutnya anda diminta untuk memilih prosedur penginstalan sebagai berikut :
-    - _Install TeaLinuxOS Alongside Them_
-      Pilihan ini dapat menyimpan berkas anda seperti dokumen, dll.
-    - _Erase disk and Install TeaLinuxOS_
+12. Selanjutnya anda diminta untuk memilih Jenis Instalasi sebagai berikut :
+    - _Hapus disk dan Install BantOS_
       Pilihan ini menghapus semua Disk Anda. Pilihan ini dikhususkan bagi Anda yang tidak ingin dualboot, karena pilihan ini akan menghapus semua OS dan data yang ada.
-    - _Something else_
+    - _Sesuatu yang lain_
       Pilihan ini dikhususkan bagi anda yang ingin dualboot. Karena didalam pilihan ini Anda dapat mengatur partisi yang telah kita buat diawal tadi.
-    ![instalaltion](https://cloud.githubusercontent.com/assets/22718275/23686028/cd308aac-03d9-11e7-9fa7-217fd1f7ac08.png)
+    ![instalaltion](/src/images/install-bantos-3.png)
     Pilih something else lalu klik ok.
 13. Anda akan mendapatkan antarmuka seperti berikut :
-    ![partiton_1](https://cloud.githubusercontent.com/assets/22718275/23686041/e39d8f38-03d9-11e7-8836-e749fb8b0794.png)
-    Seperti yang anda lihat pada antarmuka tersebut, terdapat 2 buah partisi yang anda telah buat pada langkah sebelumnya yaitu `/dev/sda1` yang berukuran 50GB dan `/dev/sda5` yang berukuran 2GB. Sebagai informasi nama partisi dapat berbeda antara tutorial ini dan perangkat anda.
-14. Selanjutnya ubah tipe partisi `/dev/sda1` dengan cara klik tombol change. Atur menjadi `ext4`, format partisi dan juga arahkan mount point ke `/`. Klik OK untuk lanjut.
+    ![partiton_1](/src/images/install-bantos-4.png)
+    Seperti yang anda lihat pada antarmuka tersebut, terdapat satu buah partisi yang anda telah buat pada langkah sebelumnya yaitu `/dev/sda` yang berukuran 90GB. Sebagai informasi nama partisi dapat berbeda antara tutorial ini dan perangkat anda.
+14. Selanjutnya ubah tipe partisi `/dev/sda` dengan cara klik tombol change. Atur menjadi `ext4`, format partisi dan juga arahkan mount point ke `/`. Klik OK untuk lanjut.
     ![Partition_2](https://cloud.githubusercontent.com/assets/22718275/23686049/f5030230-03d9-11e7-8834-7ecac4b9b6bb.png)
     ![partition_3](https://cloud.githubusercontent.com/assets/22718275/23686061/03f969f0-03da-11e7-8bda-eb56c7c8cf04.png)
 15. Selanjutnya ubah tipe partisi `/dev/sda5` dengan cara klik tombol change. Atur menjadi `swap area`. Klik OK untuk lanjut.
