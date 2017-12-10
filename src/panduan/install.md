@@ -22,8 +22,8 @@ ISO BantOS dapat diunduh [Belum dapat di Unduh](http://linux.dev.bantenprov/iso/
 4. Selanjutnya ubah boot priority ke urutan pertama jika anda menggunakan flashdisk atau ubah boot priority CD(): ke urutan pertama jika Anda menggunakan CD.
 5. Simpan pengaturan pada BIOS Anda kemudian restart.
 6. Tunggu beberapa saat sampai muncul menu seperti berikut :
-   ![menu-install](src/images/install-id.png)
-7. Pilih `Try BantOS` untuk mencoba atau `Install BantOS` untuk langsung menginstall. Apabila Anda memilih Install TealinuxOS Anda dapat melewati langkah ke 6 dan 7.
+   ![menu-install](/src/images/install-id.png)
+7. Pilih `Try BantOS` untuk mencoba atau `Install BantOS` untuk langsung menginstall. Apabila Anda memilih Install BantOS Anda dapat melewati langkah ke 6 dan 7.
 8. Tunggu beberapa saat sampai muncul desktop TealinuxOS seperti berikut :
    ![try-install](https://cloud.githubusercontent.com/assets/22718275/23685964/736151be-03d9-11e7-9b11-23af4063ab3b.png)
    Anda dapat mencoba terlebih dahulu fitur-fitur yang terdapat pada TealinuxOS sebelum menginstallnya. Tetapi jika Anda langsung ingin memasang TealinuxOS, klik icon _Install TealinuxOS_ pada desktop.
