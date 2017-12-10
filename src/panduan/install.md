@@ -43,5 +43,5 @@ ISO BantOS dapat diunduh [Belum dapat di Unduh](http://linux.dev.bantenprov/iso/
 13. Selanjutnya Anda diminta untuk mengisi data diri.
     ![whoru](/src/images/install-bantos-7.png)
 14. Tunggu beberapa saat proses sampai proses instalasi BantOS selesai.
-    ![installaltion](/src/images/install-8.png)
+    ![installaltion](/themes/vue/source/imagesinstall-8.png)
     
