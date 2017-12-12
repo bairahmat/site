@@ -11,12 +11,6 @@ order: 109
 
 Pastikan komputer anda terkoneksi dengan jaringan komputer karena penginstalan akan langsung mengunduh paket aplikasi yang ingin di install dari repository ubuntu. Cara paling mudah adalah melalui Software Center.
 
-Klik ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
- `→ Software`
- 
- ![software-center](https://cloud.githubusercontent.com/assets/26142091/23578129/6d894e06-0102-11e7-8672-2a7212299881.png)
-
-
 Atau lewat terminal, Buka terminal dan
 Ketikan perintah: 
 
@@ -62,20 +56,7 @@ Jika anda memiliki aplikasi dengan ekstensi .tar.gz, .deb ataupun .tea anda dapa
         Buka teminal ketikkan perintah 
         
             sudo dpkg -i nama_file.deb
-
--    Menginstall aplikasi .tea
-    Penginstalan paket aplikasi .tea dengan menggunakan Tea Package Installer
-
-    ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
-    `→ System → Tea Package Installer`
-    Pilih `Cari`
-    Lakukan pencarian dimana anda meletakkan file .tea
-    Pilih `Install`
-    Pilih `Lanjut` hingga selesai.
-
--    Menginstall melalui Tea Module Installer
-    Untuk mengistall aplikasi melalui Tea Module Installer anda dapat melihatnya [disini](http://tealinuxos.org/dukungan/tea-mudule-installer).
-
+            
 ## Uninstall Software
 
  Untuk menguinstall software tertentu anda dapat melakukannya dengan cara berikut:
@@ -102,26 +83,7 @@ Repository merupakan sekumpulan paket-paket aplikasi atau program untuk sebuah s
     
         sudo apt-get install nama_paket
 
-  - Melalui Sistem
-    ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
-    `→ Settings → Software & Updaters`
-    Pada jendela Software & Updaters pilih tab `Other Software`
-    Klik tombol `Add`
-    Isikan repository yang ingin ditambahkan
-    Klik tombol `Add Source`
-
-## Menginstall melalui Tealinuxos IDE Installer
- 
-Anda dapat menginstall paket menggunakan TeaLinux IDE Installer sebagai berikut:
-
--    Masukkan CD IDE Installer
--    Jalankan TeaLinux IDE Installer ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
- `→ Accessories → tealinux-ide-installer`
--    Pilih paket yang ingin di Install
--    Klik tombol `Install`
-
 ## Mengupdate software
 
- ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  `→ Settings → Software Updater`
 Mengupdate software dapat dilakukan melalui layanan Software Updater, sistem akan mengecek update software lalu akan mengunduh dari internet dan memasang update-update untuk software. 
