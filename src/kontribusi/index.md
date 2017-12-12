@@ -1,7 +1,7 @@
 ---
 layout: kontrib
-title: Berkontribusi pada Proyek TeaLinuxOS
-subtitle: Kami butuh kamu. Jadilah bagian dari developer-developer TeaLinuxOS untuk berkontribusi dan terlibat melakukan perubahan pada pengembangan TeaLinuxOS. Meskipun kamu bukan seorang programmer, kamu bisa berkontribusi dan membuat perubahan.
+title: Berkontribusi pada Proyek BantOS
+subtitle: Kami butuh kamu. Jadilah bagian dari developer-developer BantOS untuk berkontribusi dan terlibat melakukan perubahan pada pengembangan TeaLinuxOS. Meskipun kamu bukan seorang programmer, kamu bisa berkontribusi dan membuat perubahan.
 type: Kontribusi
 ---
 
@@ -17,46 +17,46 @@ type: Kontribusi
 
 ---
 
-Kami butuh kamu. Jadilah bagian dari developer-developer TeaLinuxOS untuk berkontribusi dan terlibat melakukan perubahan pada pengembangan TeaLinuxOS.
+Kami butuh kamu. Jadilah bagian dari developer-developer BantOS untuk berkontribusi dan terlibat melakukan perubahan pada pengembangan BantOS.
 
 ### ArtWork
 
-Desain tidak hanya tampilan visual (UI) untuk TeaLinuxOS namun juga cara menggnakan TeaLinuxOS (UX) dan TeaLinuxOS itu sendiri (branding). Terlibat dalam tim desain membuatmu dapat melakukan perubaan dalam TeaLinuxOS. Design TeaLinuxOS mengusung tema "simple and elegant" dimana segala pengguna dapat dengan mudah menggunakan TeaLinuxOS secara efektif, namun tetap memliki tampilan yang bagus.
+Desain tidak hanya tampilan visual (UI) untuk BantOS namun juga cara menggnakan BantOS (UX) dan BantOS itu sendiri (branding). Terlibat dalam tim desain membuatmu dapat melakukan perubaan dalam BantOS. Design BantOS mengusung tema "simple and elegant" dimana segala pengguna dapat dengan mudah menggunfakan BantOS secara efektif, namun tetap memliki tampilan yang bagus.
 
 Tugas-tugas tim design antara lain:
 
-- Menentukan tema antarmuka TeaLinuxOS (warna, font, icon dll)
+- Menentukan tema antarmuka BantOS (warna, font, icon dll)
 - Menentukan guideline design
 - Melakukan penelitian pengguna (user research)
 
 ### Riset
 
-Informasi-infomasi tentang aplikasi-aplikasi maupun paket-paket terbaru yang dikumpulkan oleh tim riset menjadi kunci kualitas dari TeaLinuxOS.
+Informasi-infomasi tentang aplikasi-aplikasi maupun paket-paket terbaru yang dikumpulkan oleh tim riset menjadi kunci kualitas dari BantOS.
 
 Tugas-tugas tim riset antara lain:
 
 - Membuat kuesioner pengguna
-- Menentukan core tealinuxos
-- Menetukan aplikasi-aplikasi ataupun paket-paket yang akan dimasukkan dalam TeaLinuxOS
-- Mengembangkan software TeaLinuxOS
+- Menentukan core BantOS
+- Menetukan aplikasi-aplikasi ataupun paket-paket yang akan dimasukkan dalam BantOS
+- Mengembangkan software BantOS
 
 ### Pemaketan
 
-Memadukan, mengelola, dan memelihara paket-paket yang ada pada TeaLinuxOS, baik paket impor, khas, maupun paket mentah merupakan tanggung jawab tim pemaket.
+Memadukan, mengelola, dan memelihara paket-paket yang ada pada BantOS, baik paket impor, khas, maupun paket mentah merupakan tanggung jawab tim pemaket.
 
 Tugas-tugas tim pemaket antara lain:
 
-- Meremaster TeaLinuxOS
+- Meremaster BantOS
 
 ### Dokumentasi
 
-Tanpa dokumentasi yang baik, TeaLinuxOS akan susah sekali diperlihara. TeaLinuxOS memilki dokumentasi pengguna dan dokumentasi developer untuk memudahkan keduanya, baik untuk menggunakan dan mengembangkan TeaLinuxOS.
+Tanpa dokumentasi yang baik, BantOS akan susah sekali diperlihara. BantOS memilki dokumentasi pengguna dan dokumentasi developer untuk memudahkan keduanya, baik untuk menggunakan dan mengembangkan BantOS.
 
 Tugas-tugas tim dokumentasi antara lain:
 
 - Menulis dokumentasi pengguna
 - Menulis dokumentasi developer
-- Mengisi konten blog TeaLinuxOS
+- Mengisi konten blog BantOS
 - Mendokumentasikan proses maupun hasil kerja tim lain
 
 
@@ -64,7 +64,7 @@ Tugas-tugas tim dokumentasi antara lain:
 
 ---
 
-Dokumentasi panduan TeaLinuxOS ditulis dengan format [Markdown](https://guides.github.com/features/mastering-markdown/) dan di-host di github. Kontribusi baik berupa perbaikan kesalahan penulisan, pembaruan, bahkan translasi akan mebuat lebih manis.
+Dokumentasi panduan BantOS ditulis dengan format [Markdown](https://guides.github.com/features/mastering-markdown/) dan di-host di github. Kontribusi baik berupa perbaikan kesalahan penulisan, pembaruan, bahkan translasi akan mebuat lebih manis.
 
 Dokumentasi disusun oleh [Doscom](http://doscom.org) dengan dua bahasa, yaitu Bahasa Indonesia pada url [http://tealinuxos.org/panduan/](http://tealinuxos.org/panduan/) dan Bahasa Inggris pada url [http://tealinuxos.org/en/panduan/](http://tealinuxos.org/en/panduan/).
 
@@ -89,13 +89,13 @@ Pada bagian bawah setiap halaman panduan tersedia link yang menuju file markdown
 # Pelaporan
 ---
 
-Pelaporan TeaLinuxOS secara umum bisa dengan menggunakan [Lapor](https://github.com/tealinuxos/lapor) di repo github tealinuxos.
+Pelaporan BantOS secara umum bisa dengan menggunakan [Lapor](https://github.com/tealinuxos/lapor) di repo github.
 
 ### Cara melaporkan Hama
 
 1. Silahkan membuat akun Github [di sini](https://github.com/join). Apabila sudah punya, bisa langsung akses halaman [**Lapor Hama**](https://github.com/tealinuxos/lapor/issues)
 2. Pastikan Hama belum pernah dilaporkan. (Gunakan fitur pencarian)
-3. Pastikan sudah menggunakan TeaLinuxOS versi terbaru.
+3. Pastikan sudah menggunakan BantOS versi terbaru.
 4. Memberi label pada setiap Hama yang dilaporkan. (label bisa dilihat [di sini](https://github.com/tealinuxos/lapor/labels))
 
 ### Komponen pelaporan Hama yang baik
