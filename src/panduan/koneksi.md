@@ -49,5 +49,5 @@ Untuk mengecek apakah koksi anda bekerja atau tidak anda dapat mengetesnya melal
 
 -   lalu enter.
 
-Jika koneksi berhasil anda akan menerima pesan berupa jumlah statistik paket yang di transmisikan. Jika anda mendapat pasan `ping: Destination Unrhecable` maka komputer anda mungkin tidak terhubung ke internet dan tidak dapat menjangkau Domain Name System (DNS) server.
+Jika koneksi berhasil anda akan menerima pesan berupa jumlah statistik paket yang di transmisikan. Jika anda mendapat pasan `ping: Destination Hots Unrhecable` maka komputer anda mungkin tidak terhubung ke internet dan tidak dapat menjangkau Domain Name System (DNS) server.
 
