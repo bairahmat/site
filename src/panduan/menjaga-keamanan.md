@@ -12,7 +12,6 @@ Beberapa tips menjaga keamanan komputer anda diantaranya :
 
 Meskipun anda memiliki password yang sangat sulit dipecahkan alangkah baiknya untuk tetap waspada dengan mengganti password komputer anda secara berkala, langkah-langkahnya sebagai berikut:
 
- ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
  `→ Setting → User and Groups`
 Klik username anda pada list
 Klik `Change` pada pengaturan Password
@@ -21,7 +20,7 @@ Terakhir pilih `Ok`
 
 ### Kunci layar ketika meninggalkan komputer
 
-Mengunci layar saat hendak meninggalkan komputer sangat penting untuk menghindari seseorang mengakses komputer anda. Untuk mengunci ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+Mengunci layar saat hendak meninggalkan komputer sangat penting untuk menghindari seseorang mengakses komputer anda. Untuk mengunci.
  `→ Lock Screen` atau Klik `nama user` pada panel `→ Lock Screen.`
 
 ### Mengatur Firewall
