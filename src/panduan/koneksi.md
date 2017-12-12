@@ -45,7 +45,7 @@ Untuk mengecek apakah koksi anda bekerja atau tidak anda dapat mengetesnya melal
 -    Buka terminal
 -    ketikkan perintah 
            
-           ping tealinuxos.org
+           ping 8.8.8.8
 
 -   lalu enter.
 
