@@ -20,7 +20,7 @@ Jika Pembatasan Driver tersedia untuk beberapa device, anda dapat menginstalnya 
 
 Jika beberapa driver tersedia untuk perangkat anda dapat diinstal dari Software Source dialog:
 
--  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+-  menu
    `→ Settings Manager → Software & Updates`
 -    Driver yang tersedia akan muncul di tab Additional Drivers, pilih dan Apply Changes
 -    Anda akan, jika perlu, memasukan password administration
@@ -30,7 +30,7 @@ Jika beberapa driver tersedia untuk perangkat anda dapat diinstal dari Software 
 
 Jika Pembatasan Driver menyebabkan masalah, anda bisa menonaktifkan, ikuti langkah berikut
 
--  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+-  menu
    `→ Settings Manager → Software & Updates`
 -    Klik Additional Drivers
 -    Cari driver yang akan dinonaktifkan dan tekan tombol Deactivate
@@ -45,7 +45,7 @@ Jika Pembatasan Driver menyebabkan masalah, anda bisa menonaktifkan, ikuti langk
 
 Cara mudah untuk memeriksa ruang disk yang tersedia adalah menggunakan File Manager. Berikut beberapa langkah yang harus dilakukan
 
--  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+-  menu
    `→ Accessories → File Manager`
 -    Double-click di File System atau icon Home di Desktop
 -    Klik folder home di Lancher Panel
@@ -62,7 +62,7 @@ Beberapa cara mudah untuk meberikan ruang kosong lebih:
 
 ### Mempartisi Perangkat
 
-Anda dapat menggunakan GParted (GNOME Partition Editor) untuk mempartisi perangkat penyimpanan. Klik ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+Anda dapat menggunakan GParted (GNOME Partition Editor) untuk mempartisi perangkat penyimpanan. Klik menu
  `→ Settings Manager → GParted` untuk memulai editor partisi
 
 ### Membebaskan ruang untuk partisi baru
@@ -109,7 +109,7 @@ Ketika anda mengcopy files dari perangkat penyimpanan removable, perangkat terse
 
 Anda mungkin ingin mengubah pengaturan manajemen daya laptop Anda untuk membantu menghemat baterai.
 
--  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+-  menu
    `→ Settings Manager → Power Manager`
 -    Mengubah pengaturan yang sesuai
 -    Perubahan yang diterapkan dapat langsung dilihat
@@ -118,7 +118,7 @@ Anda mungkin ingin mengubah pengaturan manajemen daya laptop Anda untuk membantu
 
 Sebagian besar laptop terdapat touchpad, yang digunakan untuk mengontrol pointer mouse. Ada banyak cara untuk mengubah cara touchpad berkerja; pengaturan touchpad dasar dapat dikonfigurasi dengan cara berikut:
 
-- ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+- menu
     `→ Settings Manager → Mouse dan Touchpad`
 -    Pada tab  `Device` : pilih `touchpad`
 -    Anda dapat mengubah pengaturan touchpad sesuai dengan keinginan Anda.
@@ -150,8 +150,7 @@ Jika Anda mengalami masalah ini, Anda harus [melaporkan bug](http://tealinuxos.o
 
 ## Mouse dan keyboard
 
-Ketika Anda menginstal TeaLinuxOS Anda diberi pilihan untuk memilih jenis keyboard dan bahasa. Selama instalasi, perangkat penunjuk harus secara otomatis terdeteksi dan dikonfigurasi. Jika Anda ingin atau perlu mengubah pengaturan dari setiap perangkat ini setelah instalasi, Anda dapat melakukannya dengan klik ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
-   `→ Settings Manager → Mouse dan Touchpad` atau ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+Ketika Anda menginstal TeaLinuxOS Anda diberi pilihan untuk memilih jenis keyboard dan bahasa. Selama instalasi, perangkat penunjuk harus secara otomatis terdeteksi dan dikonfigurasi. Jika Anda ingin atau perlu mengubah pengaturan dari setiap perangkat ini setelah instalasi, Anda dapat melakukannya dengan klik ! menu
  `→ Settings Manager → Keyboard.`
 
 Pilihan untuk mouse dan touchpad meliputi:
