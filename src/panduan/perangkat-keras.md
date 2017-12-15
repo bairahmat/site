@@ -10,9 +10,9 @@ order: 111
 
 Pembatasan Driver (Restricted Driver) adalah keterbatasan driver untuk sebuah perangkat hardware karena tidak tersedia secara bebas atau open source.
 
-Kebanyakan device (hardware) yang terpasang di komputer anda bisa berfungsi secara normal di TeaLinuxOS. Device ini cenderung tidak memiliki keterbatasan driver, yang artinya driver dapat dimodifikasi dan masalah dengan device dapat dibetulkan.
+Kebanyakan device (hardware) yang terpasang di komputer anda bisa berfungsi secara normal di BantOS. Device ini cenderung tidak memiliki keterbatasan driver, yang artinya driver dapat dimodifikasi dan masalah dengan device dapat dibetulkan.
 
-Ketika beberapa hardware tidak dapat berjalan lancar di TeaLinuxOS bisa dikarenakan device tersebut memiliki Restricted Driver (Pembatasan Driver). Biasanya pembuat hardware belum merilis detail dari hardware itu sendiri yang memungkinkan untuk developer membuat semacam driver sendiri. Device yang seperti ini mempunyai fungsi yang terbatas atau mungkin tidak bisa berkerja sama sekali.
+Ketika beberapa hardware tidak dapat berjalan lancar di BantOS bisa dikarenakan device tersebut memiliki Restricted Driver (Pembatasan Driver). Biasanya pembuat hardware belum merilis detail dari hardware itu sendiri yang memungkinkan untuk developer membuat semacam driver sendiri. Device yang seperti ini mempunyai fungsi yang terbatas atau mungkin tidak bisa berkerja sama sekali.
 
 ### Mengaktifkan Pembatasan Driver
 
@@ -146,11 +146,11 @@ Beberapa komputer tidak dapat Suspend atau hibernate denga benar di TeaLinuxOS. 
 -    Komputer tidak bangun setelah proses suspend.
 -    Program tertentu atau perangkat keras berhenti bekerja dengan benar setelah melanjutkan dari hibernate atau suspend.
 
-Jika Anda mengalami masalah ini, Anda harus [melaporkan bug](http://tealinuxos.org/dukungan/bug.tealinuxos.org). Masalah mudah-mudahan akan diperbaiki dalam versi berikutnya dari TeaLinuxOS. Jika hardware Anda tidak bekerja dengan benar setelah suspend atau hibernate komputer, restart komputer Anda. Jika program tidak bekerja dengan benar, cobalah menutup program dan kemudian mulai lagi.
+Jika Anda mengalami masalah mudah-mudahan akan diperbaiki dalam versi berikutnya dari BantOS. Jika hardware Anda tidak bekerja dengan benar setelah suspend atau hibernate komputer, restart komputer Anda. Jika program tidak bekerja dengan benar, cobalah menutup program dan kemudian mulai lagi.
 
 ## Mouse dan keyboard
 
-Ketika Anda menginstal TeaLinuxOS Anda diberi pilihan untuk memilih jenis keyboard dan bahasa. Selama instalasi, perangkat penunjuk harus secara otomatis terdeteksi dan dikonfigurasi. Jika Anda ingin atau perlu mengubah pengaturan dari setiap perangkat ini setelah instalasi, Anda dapat melakukannya dengan klik ! menu
+Ketika Anda menginstal BantOS Anda diberi pilihan untuk memilih jenis keyboard dan bahasa. Selama instalasi, perangkat penunjuk harus secara otomatis terdeteksi dan dikonfigurasi. Jika Anda ingin atau perlu mengubah pengaturan dari setiap perangkat ini setelah instalasi, Anda dapat melakukannya dengan klik ! menu
  `→ Settings Manager → Keyboard.`
 
 Pilihan untuk mouse dan touchpad meliputi:
