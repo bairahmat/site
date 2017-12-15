@@ -22,7 +22,7 @@ ISO BantOS dapat diunduh [Belum dapat di Unduh](http://linux.dev.bantenprov/iso/
 4. Selanjutnya ubah boot priority ke urutan pertama jika anda menggunakan flashdisk atau ubah boot priority CD(): ke urutan pertama jika Anda menggunakan CD.
 5. Simpan pengaturan pada BIOS Anda kemudian restart.
 6. Tunggu beberapa saat sampai muncul menu seperti berikut :
-   ![menu-install](themes/vue/source/images/install_bantos-1.png)
+   ![menu-install](images/install_bantos-1.png)
 7. Pilih `Coba BantOS` untuk mencoba atau `Pasang BantOS` untuk langsung menginstall. Apabila Anda memilih Install BantOS Anda dapat melewati langkah ke 6 dan 7.
    Anda dapat mencoba terlebih dahulu fitur-fitur yang terdapat pada BantOS sebelum menginstallnya. Tetapi jika Anda langsung ingin memasang BantOS, klik icon _Pasang BantOS_ pada desktop.
 8. Selanjutnya Anda diminta untuk memilih untuk mendownload _software third party_ atau tidak. Klik ok untuk lanjut.
