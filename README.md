@@ -17,4 +17,3 @@ $ npm install -g hexo-cli
 $ npm install
 $ hexo server
 ```
-## Forked from vuejs.org with some modificatoin in style and multilanguage
