@@ -46,9 +46,9 @@ Selanjutnya antarmuka sebagai berikut :
 ![partiton_3](https://github.com/bairahmat/site/blob/master/themes/vue/source/images/Install_bantos-7.png)
 
 11. Selanjutnya Anda diminta untuk memilih waktu dan tempat.
-    ![time-and-region](/src/images/install-bantos-5.png)
+    ![time-and-region](https://github.com/bairahmat/site/blob/master/themes/vue/source/images/Install_bantos-8.png)
 12. Selanjutnya Anda diminta untuk memilih tipe keyboard.
-    ![keyboard](/src/images/install-bantos-6.png)
+    ![keyboard](https://github.com/bairahmat/site/blob/master/themes/vue/source/images/Install_bantos-7.png)
 13. Selanjutnya Anda diminta untuk mengisi data diri.
     ![whoru](/src/images/install-bantos-7.png)
 14. Tunggu beberapa saat proses sampai proses instalasi BantOS selesai.
