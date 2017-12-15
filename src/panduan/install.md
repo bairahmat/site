@@ -38,13 +38,12 @@ ISO BantOS dapat diunduh [Belum dapat di Unduh](http://linux.dev.bantenprov/iso/
 )
     Pilih something else lalu klik ok.
 10. Anda akan mendapatkan antarmuka seperti berikut :
-    ![partiton_1](https://github.com/bairahmat/site/blob/master/themes/vue/source/images/Install_bantos-5.png
-) 
+    ![partiton_1](https://github.com/bairahmat/site/blob/master/themes/vue/source/images/Install_bantos-5.png) 
 
 Selanjutnya antarmuka sebagai berikut :
-![partiton_2](https://github.com/bairahmat/site/blob/master/themes/vue/source/images/Install_bantos-6.png
+![partiton_2](https://github.com/bairahmat/site/blob/master/themes/vue/source/images/Install_bantos-6.png)
 
-![partiton_3](https://github.com/bairahmat/site/blob/master/themes/vue/source/images/Install_bantos-7.png
+![partiton_3](https://github.com/bairahmat/site/blob/master/themes/vue/source/images/Install_bantos-7.png)
 
 11. Selanjutnya Anda diminta untuk memilih waktu dan tempat.
     ![time-and-region](/src/images/install-bantos-5.png)
