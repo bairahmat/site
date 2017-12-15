@@ -44,7 +44,9 @@ ISO BantOS dapat diunduh [Belum dapat di Unduh](http://linux.dev.bantenprov/iso/
 Selanjutnya antarmuka sebagai berikut :
 ![partiton_2](https://github.com/bairahmat/site/blob/master/themes/vue/source/images/Install_bantos-6.png
 
+Selanjutnya antarmuka sebagai berikut :
 ![partiton_3](https://github.com/bairahmat/site/blob/master/themes/vue/source/images/Install_bantos-7.png
+
 11. Selanjutnya Anda diminta untuk memilih waktu dan tempat.
     ![time-and-region](/src/images/install-bantos-5.png)
 12. Selanjutnya Anda diminta untuk memilih tipe keyboard.
