@@ -8,11 +8,11 @@ order: 103
 
 Jika sebelumnya Anda hanya menggunakan sistem operasi windows maka selamat datang di dunia open source. Jika Anda sudah familiar dengan sistem operasi linux Anda bisa melanjutkan. Bagi yang baru bermigrasi, jangan menyerah saat menghadapi kesulitan.
 
-- Windows Explorer : ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+- Windows Explorer : menu
  → Accesories → File Manager
-- My Document : ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+- My Document : menu
  → Accesories → File Manager → go to /Home/Documents directory
-- Control Panel : ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+- Control Panel : menu
 → Settings → Settings Manager
 
 ## How to Download
