@@ -7,11 +7,10 @@ order: 107
 ## Pengaturan Koneksi Jaringan
 
  `→ Settings → Network Connection`
-atau klik icon ![networkmanager](https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png)
  `NetworkManager` yang berada di panel `→ Edit.`
 Koneksi jaringan di BantOS menggunakan network connection untuk mengatur jaringan menggunakan kabel, jaringan wireless, mobile broadband, VPN dan koneksi DSL. Network connection akan menghubungkan komputer anda secara otomatis dengan jaringan, namun jika penyambungan pertama kali biasanya memerlukan informasi keamanan untuk terhubung ke jaringan.
 
-Untuk memutuskan (disconnect) jaringan klik pada icon ![networkmanager](https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png)
+Untuk memutuskan (disconnect) jaringan klik pada icon networkmanager
  `NetworkManager` yang berada di panel lalu klik `disconnect.` 
 
 ## Konfigurasi koneksi
@@ -20,7 +19,7 @@ Untuk memutuskan (disconnect) jaringan klik pada icon ![networkmanager](https://
 
 ## Berbagi koneksi ke komputer lain
 
-Anda dapat berbagi koneksi ke komputer lain dengan menggunakan kabel Ethernet. Untuk pengaturannya klik icon ![networkmanager](https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png)
+Anda dapat berbagi koneksi ke komputer lain dengan menggunakan kabel Ethernet. Untuk pengaturannya klik icon networkmanager
  `NetworkManager → Edit` lalu pilih `Add` pada kotak dialog pilih jenis koneksi yang anda inginkan, Setelah mengklik tombol create pada bagian tab `IPv4 Setting` pilih metode yang digunakan.
 
 ## Troubleshooting pada jaringan
@@ -30,7 +29,7 @@ Jika koneksi jaringan anda tidak bekerja secara sempurna anda dapat menggunakan 
 ### Mengecek informasi koneksi
 
 - Menggunakan icon NetworkManager
-   ![networkmanager](https://cloud.githubusercontent.com/assets/26142091/23577859/8c296144-00fc-11e7-9884-b770de64ba36.png)
+   networkmanager
  `NetworkManager → Information`. Jika information di disable ini kemungkinan karena komputer anda tidak terkoneksi dengan  jaringan.
 -    Menggunakan ifconfig
     buka terminal (short cut terminal guake : F12)
@@ -49,5 +48,5 @@ Untuk mengecek apakah koksi anda bekerja atau tidak anda dapat mengetesnya melal
 
 -   lalu enter.
 
-Jika koneksi berhasil anda akan menerima pesan berupa jumlah statistik paket yang di transmisikan. Jika anda mendapat pasan `ping: Destination Hots Unrhecable` maka komputer anda mungkin tidak terhubung ke internet dan tidak dapat menjangkau Domain Name System (DNS) server.
+Jika koneksi berhasil anda akan menerima pesan berupa jumlah statistik paket yang di transmisikan. Jika anda mendapat pasan `ping: destination host unreachable` maka komputer anda mungkin tidak terhubung ke internet dan tidak dapat menjangkau Domain Name System (DNS) server.
 
