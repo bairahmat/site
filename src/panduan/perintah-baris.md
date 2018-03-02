@@ -5,7 +5,7 @@ order: 113
 ---
 
 ## Daftar Perintah Umum ##
-Untuk menjelajah atau beraktivitas di TealinuxOS atau distro linux lainya selain menggunakan Graphical User Interface (GUI) anda juga dapat menggunakan Command Line Interface(CLI). Berikut ini merupakan beberapa perintah yang umum digunakan dalam CLI.
+Untuk menjelajah atau beraktivitas di BantOS selain menggunakan Graphical User Interface (GUI) anda juga dapat menggunakan Command Line Interface(CLI). Berikut ini merupakan beberapa perintah yang umum digunakan dalam CLI.
 
 - Melihat direktori kita berada
 

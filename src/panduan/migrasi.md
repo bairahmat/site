@@ -17,4 +17,4 @@ Jika sebelumnya Anda hanya menggunakan sistem operasi windows maka selamat datan
 
 ## How to Download
 
-BantOS is akan segera hadir di Desember 2017, anda dapat download versi rilis pertama BantOS dengan melakukan Download di [BantOS](http://linux.dev.bantenprov.go.id/iso/).
+BantOS is akan segera hadir di Desember 2017, anda dapat download versi rilis pertama BantOS dengan melakukan Download di [BantOS](http://linux.dev.bantenprov.go.id/iso/bantos.iso).

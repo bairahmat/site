@@ -139,7 +139,7 @@ Anda dapat secara manual mengalihkan komputer ke mode hemat daya dengan menekan 
 
 ### Komputer saya tidak Suspend atau hibernasi dengan benar
 
-Beberapa komputer tidak dapat Suspend atau hibernate denga benar di TeaLinuxOS. Anda mungkin melihat beberapa gejala seperti berikut:
+Beberapa komputer tidak dapat Suspend atau hibernate denga benar di BantOS. Anda mungkin melihat beberapa gejala seperti berikut:
 
 -    Komputer tidak mati setelah Anda klik untuk hibernate itu.
 -    Ketika Anda menghidupkan komputer setelah hibernate itu, program yang sebelumnya terbuka Anda tidak hidup.

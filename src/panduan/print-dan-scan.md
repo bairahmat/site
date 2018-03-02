@@ -6,13 +6,13 @@ order: 108
 
 ## Penggunaan Printer
 
- Kebanyakan printer secara otomatis didukung oleh TeaLinuxOS Pappermint. Aplikasi Konfigurasi Printer memungkinkan Anda untuk menambahkan printer, serta mengubah pengaturan mereka. Anda juga dapat menggunakan aplikasi ini untuk berbagi printer dengan komputer lain di jaringan, menonaktifkan printer atau restart.
+ Kebanyakan printer secara otomatis didukung oleh BantOS. Aplikasi Konfigurasi Printer memungkinkan Anda untuk menambahkan printer, serta mengubah pengaturan mereka. Anda juga dapat menggunakan aplikasi ini untuk berbagi printer dengan komputer lain di jaringan, menonaktifkan printer atau restart.
 
 ### Print Lokal
 
 -    Dapatkan nama model printer Anda
 -    Pastikan printer sudah hidup
--    ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+
  `→ Setting → Setting Manager → Printers`
 -    Klik `→ Server → New → Printer`
 -    Printer Anda harus secara otomatis terdeteksi dan ditampilkan dalam jendela Devices
@@ -28,7 +28,7 @@ order: 108
 
 -    Dapatkan nama model printer Anda
 -    Pastikan printer sudah hidup
--   ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
+
  `→ Setting → Setting Manager → Printers`
 -    Klik `→ Server → New → Printer`
 -    Klik pada Network Printer di jendela Devices
@@ -47,7 +47,6 @@ order: 108
 Scan dokumen
 
 -    Tempatkan dokumen yang ingin di scan ke scanner
--  ![menu](https://cloud.githubusercontent.com/assets/26142091/23577576/a90a1a1c-00f5-11e7-86ec-d4bc4d831a13.png)
   `→ Graphics → Simple Scan`
 -    Klik `Document → Scan`
 -    Pilih media yang ingin anda scan: Single Page, All Pages From Feeder, Text or Photo. Bergantian, tekan tombol Scan pada pemindai cara ini seharusnya bisa berhasil.

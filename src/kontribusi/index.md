@@ -1,7 +1,7 @@
 ---
 layout: kontrib
 title: Berkontribusi pada Proyek BantOS
-subtitle: Kami butuh kamu. Jadilah bagian dari developer-developer BantOS untuk berkontribusi dan terlibat melakukan perubahan pada pengembangan TeaLinuxOS. Meskipun kamu bukan seorang programmer, kamu bisa berkontribusi dan membuat perubahan.
+subtitle: Kami butuh kamu. Jadilah bagian dari developer-developer BantOS untuk berkontribusi dan terlibat melakukan perubahan pada pengembangan BantOS. Meskipun kamu bukan seorang programmer, kamu bisa berkontribusi dan membuat perubahan.
 type: Kontribusi
 ---
 
@@ -59,44 +59,25 @@ Tugas-tugas tim dokumentasi antara lain:
 - Mengisi konten blog BantOS
 - Mendokumentasikan proses maupun hasil kerja tim lain
 
-
 # Konten Panduan
 
 ---
 
 Dokumentasi panduan BantOS ditulis dengan format [Markdown](https://guides.github.com/features/mastering-markdown/) dan di-host di github. Kontribusi baik berupa perbaikan kesalahan penulisan, pembaruan, bahkan translasi akan mebuat lebih manis.
 
-Dokumentasi disusun oleh [Doscom](http://doscom.org) dengan dua bahasa, yaitu Bahasa Indonesia pada url [http://tealinuxos.org/panduan/](http://tealinuxos.org/panduan/) dan Bahasa Inggris pada url [http://tealinuxos.org/en/panduan/](http://tealinuxos.org/en/panduan/).
-
-Pada bagian bawah setiap halaman panduan tersedia link yang menuju file markdown di github yang bisa diperbarui langsung melalui github.
-
-<div class="row center-xs">
-    <div class="col-xs-12 col-md-10">
-    ![photo_2017-05-12_02-55-15](https://cloud.githubusercontent.com/assets/21119252/25969356/d297044a-36be-11e7-93a4-4c65b598c119.jpg)
-    *gambar: link edit via github*
-    </div>
-</div>
-
-<div class="row center-xs">
-    <div class="col-xs-12 col-md-10">
-    ![photo_2017-05-12_02-55-19](https://cloud.githubusercontent.com/assets/21119252/25969373/dc603a8c-36be-11e7-9c3d-22a9d85d4f54.jpg)
-    *gambar: tampilan editor di github*
-    </div>
-</div>
-
-
+Dokumentasi disusun dengan Bahasa Indonesia pada url [http://linux.dev.bantenprov.go.id/panduan/]
 
 # Pelaporan
 ---
 
-Pelaporan BantOS secara umum bisa dengan menggunakan [Lapor](https://github.com/tealinuxos/lapor) di repo github.
+Pelaporan BantOS secara umum bisa dengan menggunakan [Lapor](https://github.com/bantenprov/bantos) di repo github.
 
 ### Cara melaporkan Hama
 
-1. Silahkan membuat akun Github [di sini](https://github.com/join). Apabila sudah punya, bisa langsung akses halaman [**Lapor Hama**](https://github.com/tealinuxos/lapor/issues)
+1. Silahkan membuat akun Github [di sini](https://github.com/join). Apabila sudah punya, bisa langsung akses halaman [**Lapor Hama**](https://github.com/bantenprov/bantos/issues)
 2. Pastikan Hama belum pernah dilaporkan. (Gunakan fitur pencarian)
 3. Pastikan sudah menggunakan BantOS versi terbaru.
-4. Memberi label pada setiap Hama yang dilaporkan. (label bisa dilihat [di sini](https://github.com/tealinuxos/lapor/labels))
+4. Memberi label pada setiap Hama yang dilaporkan. (label bisa dilihat [di sini](https://github.com/bantenprov/bantos/labels))
 
 ### Komponen pelaporan Hama yang baik
 
@@ -116,6 +97,4 @@ Pelaporan BantOS secara umum bisa dengan menggunakan [Lapor](https://github.com/
 ### Lain-lain
 
 Untuk usul fitur, pertanyaan dan lainnya selain Hama. Tidak harus menggunakan contoh diatas.
-
-
 ---

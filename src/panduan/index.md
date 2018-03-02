@@ -6,7 +6,7 @@ order: 101
 
 ## Apa itu BantOS?
 
-[Linux BantOS](http://linux.dev.bantenprov.go.id/) adalah distro Linux turunan Ubuntu9Debian) yang dikembangkan oleh [Tim Developer Banten](http://dev.bantenprov.go.id/) yang berorientasi untun Banten Government Open Source, dan akan segera hadir di Desember 2017.
+[Linux BantOS](http://linux.dev.bantenprov.go.id/) adalah distro Linux turunan Ubuntu 16.04) yang dikembangkan oleh [Tim Developer Banten](http://dev.bantenprov.go.id/) yang berorientasi untun Banten Government Open Source, dan akan segera hadir di Desember 2017.
 
 > Banten Government Open Source Software [@devbanten](https://www.twitter.com/devbanten/)
 
